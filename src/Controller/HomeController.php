@@ -55,7 +55,7 @@ class HomeController extends AppController {
             $dataFromPost['ip'] = $this->request->clientIp();
             $dataFromPost['referer'] = $this->referer();
             $article = $articles->newEntity($dataFromPost);
-            if ($article->getError()) {
+            if ($article->getErrors()) {
                 $responseData = json_encode($article->getErrors());
             } else if ($articles->save($article)) {
                 $responseData = 'Data has been saved';

@@ -1,0 +1,1570 @@
+1576084781
+s:48319:"{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "http://qa.bsacademy.edu.in/",
+ "responseCode": 200,
+ "title": "hkjh",
+ "score": 66,
+ "pageStats": {
+  "numberResources": 71,
+  "numberHosts": 6,
+  "totalRequestBytes": "5666",
+  "numberStaticResources": 62,
+  "htmlResponseBytes": "50184",
+  "cssResponseBytes": "550935",
+  "imageResponseBytes": "1951793",
+  "javascriptResponseBytes": "412818",
+  "otherResponseBytes": "207734",
+  "numberJsResources": 13,
+  "numberCssResources": 14
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Avoid landing page redirects",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has no redirects. Learn more about avoiding landing page redirects.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Enable compression",
+    "ruleImpact": 0.0367,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compressing resources with gzip or deflate can reduce the number of bytes sent over the network."
+      }
+     },
+     {
+      "header": {
+       "format": "Enable compression for the following resources to reduce their transfer size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+        },
+        {
+         "type": "BYTES",
+         "value": "367B"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "43%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://www.youtube.com/iframe_api"
+          },
+          {
+           "type": "BYTES",
+           "value": "367B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "43%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleImpact": 27.5,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
+      }
+     },
+     {
+      "header": {
+       "format": "Leverage browser caching for the following cacheable resources:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/animate.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/bootstrap.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/component.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/flaticon.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/font-awesome.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/hover.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/owl.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/responsive.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/style.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/fonts/Flaticon.woff"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/1.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/10.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/11.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/2.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/3.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/9.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/bg.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/bg1.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/bg3.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/footer-bg.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/btn/10.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/btn/7.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/1.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/2.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/3.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/4.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/5.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/6.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/logo.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/logo2.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/resources/submenu-icon.gif"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/resources/submenu-icon.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/1.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/2.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/3.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/4.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/5.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/6.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/team/1.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/team/2.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/team/3.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/team/4.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/bootstrap.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/custom.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/html5lightbox/froogaloop2.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/html5lightbox/html5lightbox.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/html5lightbox/icons/css/fontello.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/isotope.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/jquery.appear.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/jquery.countTo.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/jquery.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/owl.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/validate.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/wow.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/revolution/css/settings.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Reduce server response time",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your server responded quickly. Learn more about server response time optimization.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/Server"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleImpact": 0.636,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting CSS code can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify CSS for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "6.2KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "20%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/revolution/css/settings.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "2.1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "28%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/hover.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "1.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "18%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/style.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "1.3KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "14%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/html5lightbox/icons/css/fontello.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "596B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "49%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/animate.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "532B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "12%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/owl.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "233B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "18%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleImpact": 0.112,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting HTML code, including any inline JavaScript and CSS contained in it, can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify HTML for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "1.1KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "21%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/"
+          },
+          {
+           "type": "BYTES",
+           "value": "1.1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "21%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleImpact": 0.742,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting JavaScript code can save many bytes of data and speed up downloading, parsing, and execution time."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify JavaScript for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "7.2KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "34%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/owl.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "6KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "35%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/custom.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "890B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "35%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/jquery.countTo.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "269B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "27%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/js/jquery.appear.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "122B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "18%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+    "ruleImpact": 2.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has $1 blocking CSS resources. This causes a delay in rendering your page.",
+       "args": [
+        {
+         "type": "INT_LITERAL",
+         "value": "1"
+        }
+       ]
+      }
+     },
+     {
+      "header": {
+       "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "Optimize CSS Delivery of the following:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/css/bootstrap.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleImpact": 21.407,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Properly formatting and compressing images can save many bytes of data."
+      }
+     },
+     {
+      "header": {
+       "format": "Optimize the following images to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "value": "209.1KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "29%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/bg.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "22.2KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "24%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/bg1.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "20.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "33%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/3.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "12.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "34%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/2.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "12.8KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "33%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/4.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "12.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "34%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/3.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "12.6KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "33%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/2.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "12.4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "33%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/1.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "12.4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "32%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/6.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "12.3KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "32%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/9.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "11.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "33%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/1.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "11.1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "31%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/10.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "9.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "31%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/11.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "9.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "31%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/gallery/5.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "9.4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "30%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/bg3.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "6.1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "28%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/2.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "4.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "20%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/1.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "19%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/4.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "3.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "22%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/service/3.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "3.6KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "16%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/blog/footer-bg.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "2KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "21%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/btn/7.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "38%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://qa.bsacademy.edu.in/assets/public/images/btn/10.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "38%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Prioritize visible content",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "You have the above-the-fold content properly prioritized. Learn more about prioritizing visible content.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ },
+ "screenshot": {
+  "data": "_9j_4AAQSkZJRgABAQAAAQABAAD_2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj_2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj_wAARCACzAUADASIAAhEBAxEB_8QAHAABAAMBAQEBAQAAAAAAAAAAAAQGBwUDAggB_8QAUhAAAQMDAQMFCgkHCgQHAAAAAQACAwQFEQYSITEHE0FRYQgUFyJVcYGRk9IVFjJ1lKGx0eIjJTdCUlSyMzQ1VnJzdIKSwTY4s-EkRGJjo8Lx_8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFBv_EAC8RAQABAgMGBQQDAAMAAAAAAAABAgMVodEEERMxUVIFEhRhkSFBcYEyU-EzcrH_2gAMAwEAAhEDEQA_AO4i0TwZv8qt9gfeTwZv8qt9gfeXkemu9H3WMbH35Toz6FrXzRskkEbHOAc8jIaOvC94aMvqJIZJoY3MA37Yc07xwIOOnKvPgzf5Ub7D8SeDN_lRv0f8SmNmudqs-L7JPK5lOioNtAcx5Fxoct4tMnHzdZUCqiEE74xI2UNxh7eB3K_eDN_lRv0f8SeDN_lRv0f8SmdnufalWnxbZYn63d_6nRRqikENIyfnmO2tnxRx3jP1cFM-Bml5DbnQ4HS5-Nytvgzf5Ub9H_Engzf5Ub9H_Enp7nbmifFdmnldynRS5rc1kE0rKyneIyQGh3jPwSNw9APpUBaH4M3-VG_R_wASeDN_lVvsPxKJ2a59qV6fFtkjnc3_AKnRniLRPBm_yq32B95PBm_yq32B95R6a70WxjY-_KdGdotE8Gb_ACq32B95PBm_yq32B95PTXehjGx9-U6M7RaJ4M3-VW-wPvJ4M3-VW-wPvJ6a70MY2PvynRnaLRPBm_yq32B95PBm_wAqt9gfeT013oYxsfflOjO0WieDN_lVvsD7yeDN_lVvsD7yemu9DGNj78p0Z2i0TwZv8qt9gfeTwZv8qt9gfeT013oYxsfflOjO0WieDN_lVvsD7yeDN_lVvsD7yemu9DGNj78p0Z2i0TwZv8qt9gfeTwZv8qt9gfeT013oYxsfflOjO0WieDN_lVvsD7yeDN_lVvsD7yemu9DGNj78p0Z2i0TwZv8AKrfYH3k8Gb_KrfYH3k9Nd6GMbH35ToztFongzf5Vb7A-8ngzf5Vb7A-8nprvQxjY-_KdFGtdEbhXR0wmig28kySuAa3AyvW32uSucxrKinY9ztjZe_fnOPT1q5nkzeeN0b9H_Engzf5Ub9H_ABK0bPc-9ObOrxbZp3-W7u_U6KS-g2XU476pyZTgja_k_wC11L7p7ayaapi7_pGGE4DnOOzJxzsn0K5-DN_lRv0f8SeDN_lRv0f8SenuduZPiuy7v-XKdFVlsLopDHLcKFkgGS1zyMcPvXIlaGSvYHteGuI2m8D2haD4M3-VG_R_xJ4M3-VG-w_Ek7PcnlTmUeLbLH8ru_8AU6M8RaJ4M3-VW-wPvJ4M3-VW-wPvKvprvRpjGx9-U6NJREXrvhRc643SGjjc90sDGsdsvdNJsBu7PTx8wU-RwZG5x4AErMo62k1bZu-raJHFzj3tFWEkscDiRrt53gjOAckEYVoj6eaYndHTKP2pXX5d0U7vNPLfy_MrpQagpqv8pHLTyUxGedimDtnfgbTeI4j61_a3UdJR1U1PLHUF8ZDQWsBD3HZ8Vu_j4444VLo4YtPUNXWXHYgfG3ae-PLSYGkOcTvz0Y7SRhTyLVc6SC7yVVRSRXWAPjhkpmvds4YNl-52eDdxPE7t6pVTXXTFVqJ_f29nRstVrzzRtMxEx037p5fmfytlZeqWkmEUol5ww8-1oZvI2g0Nx-0SRuUd-pKQNdsR1MkgZG7m2x-N45IAwTxBG8eZcKs-Ape9ql1zqIyGtiheWOOAwYGQRjO1g5I38OleczbUX98i9VYqyBIZHROc5wDw0HZIxuc0jh09gUTbv_al0Uej3Rvq-rvjU9EXt8So5l0gibNsDYJLdrrzw7FIs98pbsQKZszXbAkIkbghpxgnf053eY9Sqhh0-GSM-End7SODgG05yMNA3vDcniOPDParPpunpBT980FQZ4ZI2xB2zj5Dnf7kj0KIovRO-uN0F30nlnhzvl2URFdxCIiAiIgIiHggZRV6fTkrqueaC73CnEz3PeyNwxv6B1ALpWihmoYpWT11RWF8m2HTYy0YA2Rjo3Z9KCei4t-sb7rPTzMr6ikfACG81jfkgkn_AEhLfZqimrY557rV1QjDgGS4A8bzcejHp9AdpMqLc6Jlwo3U0xcI3FpdjpAcHY9OMLhVGmKmpLuevdcQXuc0AAbAP6ox0Abuvt4YCzouTaLVU0FRJJNdKqsY4ECObGG7xwx1Y-te96txudKyFtTNTFkrJQ-LGctORx6M4PoQT8plVeXTNbLO2V2oLg0twGhuAB8nPHPHG_z9HTJhsNXDNG4Xuve1rmnZkIOQCDjPbgjfnig76ZXzKznI3MJI2gRkcQqo3SM7Oa5u-V0fMx7EQja1oZk7yB28EFtRQLRRz0UcrKirlqtp-WGQ5LW4AxnpyQT6ccAvG8Wl9wmimiq5KWWNjmtexoLhkjeCeB3Y8xQdXKKsyaaq3Ne0X24Bj87eSMvy0NwT0Yxndjf6lYoIzFBHGXFxa0N2jxOOlB4sq3SDaippnsPBwLRn1nK-6eo558jDG-N7CAQ7HSM9BK5ALJaak2K-OnkhOS0u4-NwIyOojfnidy6VE9stVUyRuDoyWgOacg4G_eqxPJtVRu3_AE5JiIisxEREDITIWAfGW-Ej87Vu_wD90r-fGa-YJ-Fq32pXtYJc7oa8KW_vDXNLXYIIwQqtctG0kod8Fzvtu2MPjiaDE7qJZ0EdYIWW0-oL7PPFCy71gdI9rATKcZJwp9bVaqppdgXC4zN3ePGX4BJwAQQCDu6esdYTCblE-Xzx9VarETzX6k0Y10xfeLhJcGl_OOi5sRxvd1uAJz5lYTabe6CGF1HTmKEFsbCwEMB4gDoWPx1eq3Sc0a24teRnL3kAHZLtnPXgL5hrdVyyBgrLk0kEjbeR-qXAekDck-G1_wBkIixTHLc15titLXbTbdSA_wB0F9Gz2wxc2aGm5vGNnmxjGc49e9Y73_qsv2GVV1eSSAWl28jj0L-_COpnUMVTHcbhIH7ZLWOcS0NOCXdW_oTC7n9kZrcGGw_A9s3_APgKTfuP5Ju_6lMghip4xHBGyOMcGsGAsON01SHvYau6bTC0OG0ctLvkg-dfQuGqw7Dqm6jGc5LtwBwT9aifCa553IOFubnkJkLDPhDVZcQ2qurtziCC7BAOCfWpNvqdRV1MyeG-zbDjg5leSw5wAcDed4zjOMjOFWfCaqY3zXBw_dtWQmQsWqZtTU9uNY-8zmNrNshszicbQacnGAQSN2d-_GcL-0E-pK6mZPBfZdhxDTmZ-WuJAAOBvO8ZxnGd-FGFTu83Ejd-zh-7aMhMhYzDJqWWnE0d8lLTkbpn_KA-Tw84zwyCMrnQ3bU80TJIay5vY9pcHNcSCBjP2j1qY8JqnlXBw_du-QmQsJN11QHzRuq7oJIgHPbtOy0HgSvQ1-rA7YNRdg4ENIy7cTwCnB6u-E8P3blkJkLCRddUOM2zV3Q807YkALvEJ4A9q_kl21PG4iSsujSAScuduxnP2H1KcHr74OFPVu-QmQvz-NTXsEH4Wrcf3pX9OpL5k4u9b7UqcEud0ZnClv8AkJkL8_nUt8B_pat9qUGpb5v_ADtW-1KYJc7ozOFL9AZCZC_P_wAZb55WrfalPjLfPK1b7UqcEud0ZnCl-gMhMhfn86mvmB-dq32pT4zXzytW-1KYJc7ozOFL9AZCZC_P_wAZb55Wrez8qU-Mt88rVvtSowS53RmcKX6AyEyFg9JetRVbnNp7nXPc0bRAl6OC9xX6pIBFdcSDgj8pxz_-Lybk7Pbrmiq59Yndyq-36cdW1WaZmmZ5e0txyEyFhsdx1RK0Pjr7i8ElviyZ3gkEfUV5Q3y-uqXRSXauY5ucgyHII3YVrNNi_XFui59Z9qvz0VnbbERvmrKdG77utMjrWNGXUoJaLpcSR1SZ_wB18mfUgGTc7l0frrsw-P7IzZ4hs_WfidGz5CZCxaeq1DDTsnku1wbG9zmtJfxLeIXJ-Mt7LR-dq3I4_lStLfhNVz-NcZunZ71vaN_Dnl7THP8ALf8AITIX5_Opb5g_nat9qU-Mt88rVvtStMEud0OnhS5ogkxuaT1L671nOAIypsSmRKuNXu2M9Tiy5cFLWRTRyxQu243B7TuO8HIXZo7jeY5Ieeg5-KN21skAE7scengOOeAC9olLiVa_F7lf8qIn51RN2Z-yBUVd5mmkMVI1sTjgMe1ryG4IwSewn1r5jlv7WStbTNLZXbT8xM8bcBg9mBwXci6FMiVY8Uqj6eSn4nU4nsrL5NRPDg6nHjHeRGzJ35A48AScecryijv8W1sUxydrixpwXOLiR25JwejKuKKcVr5eSn4_04k9FPpo7_TzzzxUwbLO8SPcWNJyDndv3L1bJqFvyaSPcSRmJpxnzn6la0SfFa550U_H-nEnoqfOaiOzmDeHB-QxmSQQQTv342QPMML4gZfKeOBsdEw8yzm2l0bT4u1tYOTv8bB9AVvRMVr5eSn4_wBOJPRT9nUAp-aEDm7tnba1ofja2vlZzx3r7jN_ZzZ70DnRt2A9zGuJG1tb8nedoA56wraiYrX2U_H-nEnoqTTfw7PejA7Yaza5tufFBDTx4jJ39p618sZf4qKGljp9mGLGxsMaHbnBwJPSctCt6JitfZT8TqcSeipMF9bVSz9675S3bAa0cAR4u_ccOcMjrK9aio1DK6TYpRHFtl0cYY3DATkgb_X1nerQijFKpnf5KfidTieynQN1BBIZIoHNeSDnZbxDAzr_AGQAvuQ6ifSz0xhc2nmGHRta0ADDRgdQw0D19ZVuRTite_f5Kfj_AE4k9GffAdy_c5PWPvT4Euf7pJ6x960FFpjd7tjPVPFlnwsly_c5D5yPvQ2S5H_ycnrH3rQUTGr3bGepxZZ8LHcv3ST1j70NjuX7pIfSPvWgomN3u2M9Tiyz34DuX7nJ6x96_vwHcf3SX1j71oKJjV7tjPU4ss--BLlnPecnrH3p8CXLP8zk9Y-9aCiY3e7Yz1OLKgMs90j-RSyjtBA_3Xs-3XqTBdFMSAB8oDcOA4q8ovMrqsXKprqtU75-s_y1clWz2apmZp5_nVQ22q7NGG08zewO3fav7Da7pFIX95vc47jkj71e0VrVyzZriu3apiY_7ao9JY7P_dVMbHeInZbSSNOeIf8A918Yurd3e0g_z_8AdXCVQ5eldeJ1dkZ6qeg2bsznVWZH3NzNh8Dy0cAX5A9GVze8apvGFw9StsqiSq9Hi9yj-NMZ6t7Fq3s-_hU7t_5Vs0s4O-N31L5dDIP1MLtyqHKr41e7Yz1dHFkiUyJQ4lMiXjMkuJS4lEiUuJBMi6FLiUSLoUuJB7IiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiDxlUSXpUuVRJelBDlUSVS5VElQRJVDlUyVQ5UCJTIlDiUyJBLiUuJRIlLiQTIuhS4lEi6FLiQeyIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIg8ZVEl6VLlUSXpQQ5VElUuVRJUESVQ5VMlUOVAiUyJQ4lMiQS4lLiUSJS4kEyLoUuJRIuhS4kHsiIgIiICIiAiIgIiICKmcq2s5NC6ZjusVEytc6pZBzb5CwDaa45yAf2frVvppOep4pSMF7Gvx1ZAP-6D0REQEREBERAREQEREBERAREQEREHjKokvSpcqiS9KCHKokqlyqJKgiSqHKpkqhyoESmRKHEpkSCXGpcS87Y-GOrjfUsL4gd4H29vmUmV23Uyu22yZcTtNbsg9oHQg9ouIUuI8Fj2q9czaa5WqemuNxdBp9lrdUywbLTtyYfjG7JcSGgDPFSLZFrzXzBcHXR-kbFL41NT08e1VSs6HOduxnzjzdKDYMosa1Bp7lA0dQTXiwavqr5DStMs1BcI9ovYN7sZJzgb8Ag9S0XQWp6fV-laG80rOaE7SJIs55uRpw5uenfwPUQgsCZVa5QNX0GitPS3S4AyOzzcEDDh00h4NHV1k9A9Co9tsnKNq-BlwvepHaZpZhtxW-3w_lGNPDbdkEHHQST2Dgg13KLKKvRmvrLGanTeuam5ys8bvO6xhzZezaJOPq84Vg5Mtds1fS1dNW0pt9-t7-braJ2fFOcbTc78ZGMHeD6CQu6IiAiIg42qtNWnVVtbQX2mNTSNkEoYJHM8YAgHLSDwJXXjY2ONjGDDWtDQOoAYCzfl-1DddM6IhrrFWPo6p1bHEZGAElpa8kbwekD1LRKJ7pKOne85c6JjiesloJQeyZWY8uOp7jpem03Pbq91FFPcRHVODQQ6IAEg5B3ceCj0r9W8o75bhb7vPpfSznOFHzEeaqrYDjnHHI2Wno3-vig1bKLEr3U6w5K6uiudwv0-pNLSzNgqm1LPy0G1wcDknoON-DjBG8Fdav1FqLXmoau06Dro7bYqF3N1d7DNsyyfsQ_eMdeQMZDV8osa1HpjXmk7bPerBrWuu5pGGaair49oSMbvds5JHDJxuPUVofJ_qeHWGk6C8wRiIztLZYs55uRpw5uerO8dhCCxJkKsa7Gq30VLDos0EdVJKRPPWb2xR43EDpOewqoM0BritG3duUmujed5ZRQbDR5sOb9iDVsosdu2leUTTNFLcdP61qLyadpkdQ18O1zrQMkDJdk46Nx7VeuTXVkWtNJUl3jiEMri6KeIHIZI3iB2HII7CgtCZWecpmuqyyXC36d0vSMr9UXLfFG_eyBm_x3eo8dwAJO7jApNAavrIxPfuUS7Mq3bzHb2hkTD1DeMj0BBqWUWU3A660DEblNcxq2wQ-NVQzRCOrhjHF7XDO1gbzknzdI9uQ3Vdw1bFqaqrqyWqp4rhs0YkaGmOIhxDcAdWOtBqCZVG5TNdjScVFQ22jNy1Dcnc3RUbc7znG27G_GdwHSc8ACVxabRWubvGKjUeu6ugnfv70tUYbHF2bQIz9fnKDTJTxUWXpWVX-DXfJ7Tuu8F8fqmyQeNVUtZHszRs6XNdvO7rzu6QRlaHYrxSagslHdbc8vpaqMPZniOgtPaCCD5kHtKoki6ETtmpidttjw4Hac3aA7SOlRrm-GSrlfTMLIidwP29nmQc2VQ5VMlUOVAiUyJQ4lMiQS41LiUSJS4kGN6ys1Nfe6J0_SV7BJTChZM-N3B-xzjg09hIGexb3EsYuX_MtZPmp38Mq2eJB7FjZPEcMtd4pHWDuKx7uaMw6b1BRA_k6W7PawdQLQP8A6rY4_wCUZ_aH2rHO5x_mGrvnh_2IPDW7RqPugNK2SpAkoLbTmtfGeDn4c_eP8sYW0dp4lYxWEUXdRUTptwrbXsxk9J5tw-1hWzhAWL6qYNOd0Rpm4035OO-QGmqQP13b2ZP_AMZ9C2hYzyqYrOWvk4oojmWKQzuA6G85n7Iyg1-sq6eho5aqtnjp6aJu3JLK4NawdZJ4BcL4-aS_rNZvpjPvXbuFDTXOgmo6-BlRSTs2JYn_ACXt6iqx4MdE_wBWbb_pd96CZ8fNJf1ms30xn3qxRSMmiZJE9r43tDmuachwIyCOxVDwY6J_qzbf9LveVughjp4I4YGBkUbQxjRwa0DAA9AQZH3Uf6N4PnGL-CRaxb_6Ppf7mP8AhCyfuo_0bwfOMX8Ei1i3_wBH0v8Acx_whBj3dNU7au16VppMhk105t2OotAP2rZYYI6aJkEDGxwxARsY0YDWtGAB6Asg7o3-b6O-eG_Y1bI_-Uf_AGj9qChcucDJ-SnUIkAIZCyQdhEjCF68i9BBb-S_TzKdgaJqYVDz-095JJP1DzAJy1for1J_hh_1GKXyUfoz0x83xfYgtMsbZY3RvGWvBaQekEYKx7uX3EaKu0GSWQXSRrewFjPuWyDiPOsb7mH_AIVv3zs_-BqDY1U7_wAoukrBK-G532jZOzc6KImZ7T1EMBx6VVeWC73K4X-waFsdU6jnvJL6upZ8qOAE5A84a8nrwB0lW_SuhNN6YpY4rVaqYSNGDUTRiSZ56y4j6hgIK6OWvRJIxWVz254ihkwQuF3MMjZNL6g5onmfhRzoxjGAWN6PQFsniRAOIa1jfGO4AABY33MUjZtO6jlYcsfdXOB7CwIPTTIbJ3Smq3Vm-eO3sFLtdDNmIHHoJ9ZWxLE-VmGqn5VNNjRTS3WUcDpZZHOAh72GcCXPHPjDzEDqxYYeUDUtDGIr9ye3sVI3F9uInid2g9A9JQaU9rHtLZQDG4YeHcC3pz6FincwRMjs2p30--lNxDYndYDT_sR61Pvt01_rakktVk07Lpu31I5uevuUoEuwdzg1o3jI6gT2hX3Q-l6PR-maaz28l7IsuklcMOlkPynH6sDoAAQZvp0x3rujNS19a-PYstKKamD3AbLsNZkZ88h9K2Lvmn_eIPaN-9fn-06OsepuXHXNu1LTPnLD31TtbM6PcXNJO479zwr34ENB-Sqj6ZL96C-1MlJPG-GaWnfFICx7TI3BaRgjj1FZH3PsroLLqCzl-3HbbpJHHvzhp_7sJ9K7cnIloUcLVUfTJPvXd0ro-y6QhqobDTPp46hzXSB8rpMloIHHhxKDqyqJIpcqiSoIkqhyqZKocqBEpkShxKZEglxKXEokSlxIMvuX_MrZPmp38Mq2eJcMWW2yXqK7yUUDrpEzmmVRHjtbgjAPVvPrXciQSI_5Rn9ofasd7nH-Yau-eH_YtgHEEcQudZrHbLIyobaKGCjbUSc9KIhjbf8AtHtQUHlq0zcqttp1TpmMyXyxSc62JoyZos7RaB0kHO7pBd0rt6M5SdOaooY5IbhT0dbj8tRVUgjkjd0gbWNodo-pXRVbUPJ9pXUNQ6ou1jpJql_ypmAxPd53MIz6UHtqLW-m9PUb6i53ijYGjIiilbJI_saxpJJ-rtVA5L7bcNWa4ruUO90r6SnfH3vaaaT5TYsY2_NjO_pLnEbsK32fku0ZaKhs9Hp-lMzTlrpy6bB6wHkj6lcwMICIiAiIgyDuo_0bwfOMX8Ei1i3_ANH0v9zH_CFFvtktl_oxSXqhgraZrxII5hkBwBAPnwT610GNaxjWMADWgAAdAHBBj3dG_wA30d88N-xq2R_8o_8AtH7VzLzY7XexTi7UMFYKeTnYedGdh_7Q7V0eknpKCk8tX6K9Sf4Yf9Rql8lH6M9Mf4CL7FYrnb6S6UE1FcaeOppJm7MkUgy14znB9IC-qCjprfRQUdDCyClgYI4omDDWNHABB7jiFjncw_8ACt--dn_wNWxrnWOxWuwwSwWahgooZZOdeyFuA5-MZPbgBBlHLI6fS3KJpPXJgknttKDR1mwMlgJdv9LXux2tx0rS7fq7TtfQtrKS-2x9M4Z2zUsYR5w4gg9hC7FVTQVdNLT1cMc9PK0tfFI0Oa8dRB3FUeXkg0LJUmd2n4Q4nOy2aVrP9IdhBxdX63-NkztIcn8vf1dWjmqu4xZMFFC7c9210kjI3ejJwoPcx04pNO6jpmuLmw3V0YcRgkBgGfqWrWWz26x0gpbPQ01DTg55uCMNBPWes9pXzZrJbLJHOy0UMFGyeQzSiIYD3_tHtQUbXek9QN1lSaw0VLSPukVN3pUUdWcMnj38D0Hf1jgCCo7Nb6-g8Ws5Nah7xxdTVoLT5tx-1akmB1IMon5XKm0FrtVaKv1ppicGoDRKxvnOG_atG0_e7dqG1Q3GzVUdVRy_JezoPSCDvBHSCp0sbJIXxSsbJE8Fr2PGWuB4gjpCxrkVgZaOUflBsltJ-CKadr4owctjdtkYHoJH-UdSCRyqWy56Z1nb-UKwUr6tkEfe90po_lPhxjb82zuJ6C1p4ZV40zrzTWpKSOe2Xek2nDJgmlbFKw9Ra4_ZkdqtCp965M9HXmd09dYKPnnnLnw7UJces7BAQdO76msdtiMlfebbTsH7dSzPqByV82m60V7tkNxtcwno58mOQNI2gHFp3HfxBXBo-SrRNveHwaepXuHAzufL9TnEKzxwRU0LIaaKOGFgw2ONoa1o6gBuCDwlUSVS5VElQRJVDlUyVQ5UCJTIlDiUyJBLiUuJRIlLiQTIuhS4lEi6FLiQeyIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAh4IiDPdR33XVhv1XLTachv2n3uDoO9JdipiGyMhw_W356D51zhyx08eW1mkdV08w4sNGD9eR9i1PC-g5w4Od60GQ1mutaamiNLorSFdbzJ4puN2xG2L_1BpGM-l3mKtfJjomHRVllhfUGsudZJz9bVuzmV_UM78DJ47yST0q4necnJPaiAiIg8ZVEl6VLlUSXpQQ5VElUuVRJUESVQ5VMlUOVAiUyJEQS4lLiREEyLoUuJEQeyIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIg8ZVEl6URBDlUSVEQRJVDlREH_2Q==",
+  "height": 179,
+  "mime_type": "image/jpeg",
+  "width": 320
+ }
+}
+";

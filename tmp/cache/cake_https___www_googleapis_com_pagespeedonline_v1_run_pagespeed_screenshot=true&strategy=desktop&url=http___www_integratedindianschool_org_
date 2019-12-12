@@ -1,0 +1,882 @@
+1576084771
+s:43568:"{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "http://www.integratedindianschool.org/",
+ "responseCode": 200,
+ "title": "Integrated Indian School",
+ "score": 18,
+ "pageStats": {
+  "numberResources": 59,
+  "numberHosts": 5,
+  "totalRequestBytes": "6203",
+  "numberStaticResources": 50,
+  "htmlResponseBytes": "43465",
+  "cssResponseBytes": "603136",
+  "imageResponseBytes": "5861732",
+  "javascriptResponseBytes": "516654",
+  "otherResponseBytes": "252456",
+  "numberJsResources": 9,
+  "numberCssResources": 10
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Avoid landing page redirects",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has no redirects. Learn more about avoiding landing page redirects.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Enable compression",
+    "ruleImpact": 0.019100000000000002,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compressing resources with gzip or deflate can reduce the number of bytes sent over the network."
+      }
+     },
+     {
+      "header": {
+       "format": "Enable compression for the following resources to reduce their transfer size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+        },
+        {
+         "type": "BYTES",
+         "value": "191B"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "41%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/js/custom.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "191B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "41%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "You have enabled browser caching. Learn more about browser caching recommendations.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Reduce server response time",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your server responded quickly. Learn more about server response time optimization.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/Server"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleImpact": 0.1439,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting CSS code can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify CSS for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "1.4KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "20%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/css/animate.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "852B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "23%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/css/algocrats.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "587B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "17%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleImpact": 0.1477,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting HTML code, including any inline JavaScript and CSS contained in it, can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify HTML for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "1.4KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "21%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/"
+          },
+          {
+           "type": "BYTES",
+           "value": "1.4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "21%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleImpact": 0.6881999999999999,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting JavaScript code can save many bytes of data and speed up downloading, parsing, and execution time."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify JavaScript for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "6.7KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "20%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/js/bootstrap.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "3.3KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "24%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/js/uikit.min.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "2.6KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "16%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/js/sticky.menu.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "725B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "26%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/js/custom.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "126B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "27%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+    "ruleImpact": 4.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has $1 blocking CSS resources. This causes a delay in rendering your page.",
+       "args": [
+        {
+         "type": "INT_LITERAL",
+         "value": "1"
+        }
+       ]
+      }
+     },
+     {
+      "header": {
+       "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "Optimize CSS Delivery of the following:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/css/style.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleImpact": 374.19769999999994,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Properly formatting and compressing images can save many bytes of data."
+      }
+     },
+     {
+      "header": {
+       "format": "Optimize the following images to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "value": "3.6MiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "67%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/uploaded_files/slider/1552407913_p8.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "930.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "66%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/uploaded_files/slider/1552451524_pic2.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "879.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "65%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/uploaded_files/slider/1552451641_p3pg.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "849.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "65%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/upload/slide2.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "413.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "75%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/uploaded_files/slider/1552452117__40.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "248.2KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "69%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/1.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "133.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "78%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/chairman.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "27.8KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "70%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/upload/des.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "20.3KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "41%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/lg-footer.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "18.2KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "57%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing and resizing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/student_login_button.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "17.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "84%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/top-scrolla.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "16.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "72%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/reg.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "15.3KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "40%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/lg.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "15.3KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "47%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/fees.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "15.1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "85%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/apply.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "15.1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "94%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/prospectus.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "14.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "91%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/cner.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "14.8KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "92%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/gallery_top_bg.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "2.6KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "27%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/header_bg.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "2.4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "43%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/menu_active.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "914B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "73%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/ten.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "857B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "90%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.integratedindianschool.org/index_assets/images/shape_bottom.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "703B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "37%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Prioritize visible content",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "You have the above-the-fold content properly prioritized. Learn more about prioritizing visible content.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ },
+ "screenshot": {
+  "data": "_9j_4AAQSkZJRgABAQAAAQABAAD_2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj_2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj_wAARCACzAUADASIAAhEBAxEB_8QAHQAAAQQDAQEAAAAAAAAAAAAAAAQFBgcBAgMICf_EAEwQAAEDAwMBBAUHBgwGAgMBAAECAwQABREGEiExBxNBUSJhcYGRFBYyUnKh0RUjQlSxwQgXJDM0VWKSk5Sj8DZDgqKy4SVTNUR0wv_EABwBAAIDAQEBAQAAAAAAAAAAAAABAgMEBQYHCP_EADsRAAEDAgMECAMHAwUBAAAAAAEAAgMEERIhMQVBUZETFFNhcYGh0QYy8BUiM1KSscEWI0JDVGJy4eP_2gAMAwEAAhEDEQA_APT6ITIJJabI-zQITO4ktN48ttdkJUFHccihKVBwkn0azClgdmYxyCnjdxXAwWu93d23t8ttCoLJWCG2wPLbXfCu8zn0aab9LkMuMsRFDv3iEpBOPH9nUk-r11NtJA42wN5BQLnN0JTiqEwSMNNj_poXCYONrTY_6aiDEyUqVO-TXAPuQeZDSHQpTfOcbefDJwc5x1FS6K8ZUVt1JAJ64PFN9DAz_AcgjG7ihcJgpADTYP2aPkTGzHdN589td1AlPB59tBCu7wD6XnUDSQEWwDkFLG7iuIhsbMFpvPntrCITIB3NNk_ZrukKDeCfS86GwoJO480uqQA4ejHIJ43cVwRCZGctNn_prVuC0lRKm2yPAbaUNhQzuOffQgKCiVHIp9UgGWAcgkSSb3XAQWe8JLbe3y20kn20bS5GGCOqB4-ynBKVh4kq9HyzWSlfe53ej5Zqmq2XS1MZjcwDvAAI8ERzPabi6i9JpEhxqVHbTGdcadKkqdRghs4yNw8jzz4EDzqVvwmXnNym058SOK0XbY5I2tj-8a8e74Uqg44XNI77j-Fu6422hUUflPtvJQiE84kqwVpIAAx15rC5j4YC0QJClfUJSCOnr9f3GpW5bY-BsbGftGsqtsfbw2M_aNRPwrVgXu3mfZPrbO9REzZPdpV-T3io9U7hxzWq50pJ9G2vqHqWn99TD8mx9n82N32jQm2x9vLY3faNMfC1XrdvN3sjrTO9RouL7hK-7IWduUnnGSM_CmwXWedVG2fkaSLd3He_lPeO63_U29c1OE22Pg7m-ftGtWrYyCe8bB8vSNNvwrVgG5bzd7KJrGXAzUUEx_vNpgSAMn0spIwPf41lyY8lKSmBIXnOQCkEdfM_7zUrRbWNx3Ngjw9I1kW2Pu_mxt-0aR-Favi3m72T64zgVD03F9QBTbZe05-qMYOPOj5fIwkm2yskZIBTwfLrUwNtj7_5sbftGsKtrG4bWxjx9I0_6VquLObvZHW2d6iZmvAn-QSSB60_jXNVwkpa3fkuTuxyNyfx_dUxXbY_G1sf3jQu2x8Da3z9o0h8LVd7Xbzd7J9aZ3qHi4PqTlNulfS28lI9p69K7tSXFvbDEfQj66tuP25qUm2x9ow36X2jWDbY_d8Njf57jR_StXpdvM-yOtsHFRiY88yy6phgvOJaWtLYON6gPRTnwz0qEdk-qr_qdm5K1BbPkgYLXdufJnI4UtSSXGtqySe7OBu6HNW8i2sd2dzY3faNZRbWMfnEZP2jVrPhipbE5hwEm1jd1xbhlvUOttJBzXmQ9pmqVON_y-2MZP51t21PbmueRkEgkf79XF3tP1Y2tITPtToLgT6Fpf4Sc-kSSOleokW9j9JJ_vmhNvZycpOPtmt42HL2bOf_AM0dabwP15rzA_2kawZgGR-UbItRB2IRbHySQMkEdRycZ6VetpfdlWuHIkI7t51htxaMEbVFIJGD6zUpFuZ38pO37ZrBtsfeMN-j9o1kq_h2olADGsb4H2aFIVTO9MNFPy7axkbWwB9o1ldtj8bW_wDuNZP6UrPzN5n2UutsTGw0t90NtjKj91PbNtZbbAUkLX4qV-FdvkyWm9sdKUc848ffXVSVloAK9Lzr0Gyvh-Gkbins955Dwv8Ausk1S55s3IIRv3Hd0oG_ec_RoQpZUdwwPZQCreQRx7K9A4XIVKPT7z-zTRqCPIWth-CtIkMneEE8LAPII8Rz99OpU5323b6HnimrUOn7ffXIwucVT6Wd23DikDCsbgdpGQcDg8cVYywcLqGK6iFuiyE3a5PwYDEWRdkhLrqF5CsE5KAT19I5xxnnr1W3K36sMsGw3GOIAQgFKlJO85AcIOMg_SIPIyMEc8OK9AaZBVts7I3ZxtUsbMnPoYV6HP1cU_W2BHtNvZhW9ru47QISnJUeTk5J5JJJOTV0krXZt9R_6UgFCl2rWTL6w1cHnWS2rrIQFf0hRwDt4JZ2AHBwc-2uBja8bXIxNhhS1NPJQuSkhpCBlaM7M-mQBny3Hg4qx1lQTlI59lNlysduuTgfnQm33wkJyrPA8utUmSwvZSsoW7B1YzuxcnnWe63f0tsKA-Uk_SKccsbQDjGfjSqbE1u5HiLg3OIHUxEhzcU7HXdrueieM5a9IcZTnGMipQnT9sDSsQWwVN90QCobkjoDzz0rkjTNpUdxgISQMABSgB7BnigSXF7J2URaia5W28hm5MZcDrYU4-hRQtSuHE4R0Skpwnk5HPBpZGj62X-URMnRkF6K6Y7bKkFbL35sDGRhSeFkE4I3EHwIkrenbUWw2be0lCegGR4AefkBW1os0G2yFuQ4SGF7dm5OTxxxyfUPhQH5aJE2NlFVwNcFpwNzGm5JC_SLqVtY7lQQlI2hQUFlOVEkZGcEcVq9A10Vu7ZySgqOdrqAVK9PapBKPRbGW8oOScHn60_Cl96QU-j7K2yrfjHo-ynjtuCRzTRp1N3RADd5KVSkOuBTiVApcTvJSQB0G0gYPPFO69-RtrClK3gAceyhxSwRtGfdUDmnZJpKpocIjpYUnwClEHw6_fW7CpKkL75LQUFYHdqzke_pW0llKylW07xxuSSCB5ZFbIQGWdrSAnxwB8T66gHHFZTsLJIldzCTuajqOeMLI4-FdGTO9AOoZ6ekQTwceHv_AG0q3K7vOPS8sVgFXdk49Lwp2zuloFyBlGISQ2JGOmcpB9tJwu54V-ajE-GVniljKllJKxg-HFDSlqzvGPdUiFEOukjRuIkfnEsFnd4E5xnr8K7JMooUVBsOYOADlPq5wK7pKio5HHsrAKt5GOPZRdIDJJCq4b-G2Ng6ZWcn10JXcS4nc1HCM8-mScZ9nWlZUvvMY9H2UKUoKAA49lRJw5qVlydMksK2hAd9LaAcj1ZzSZa7mMhDMc4xglwjNLnFKGNoz7qysqCfRHPsocLhNIiq54ADcU88ncRx7KURzJLR-UJbC8DGxROfP2V0cUsN5SPSrAUvuslPp46Yp2yUcWdkkSq5BGO7jqV5lZH7BWiF3UIOWoxOeCVml7ZUUZUOfZWUFRB3D7qNMktTdc4_yj8534QOfRwc5Hr8qRhV1C_5uMUgc5WRk_Cl6Co53DHuoQpZUQoYHsplMBcmzJLaitKEuc4Gcj1UnWq5Bz0G2CgY-ko5PnS0KV3mMej7KFKWHAAPR9lRabp2XJkyiMvpbSc9EHI6ev15rq5v42ULUoEbRkeytXlLTju058-KGjNBdhF1uvdtG3rWHN_d-j9KhxSwgFI58eKySrYDj0vKnpmkTcWTfuV9ZXxo3K-sr402JEybE_PttxyoA7QtR-PSlzCO7ZSg7cgc4GBWlzcKxbtV13K-sr40blfWPxrFZqKV1ncr6x-NY3K-sfjQKMHwBpJ5rIUrH0j8ayFK8z8aNqgOUmsDNCearXtw1EuFpRcK3ylomPvttrLThSptOcnkHPJAHHnUa0TqePpuxznbtcHpNwXjumnH1OcAcAc8nJ5-81FO06GxC1qu3xFKcEdJecKlbiXF5VjPvSKtA9mcOZpuIy8SmaG0FbvU7sDd8eRXdDaeGBrJNHZrSS1rc9CnSxOhFnt2ptQylMSXIqUrQHVJbJUcpwgnG7GPvqpNTagmX7XNzkRLpJagJKG2ktPuBOwAA4CfHqaunXcWDH0dIfltpLVvZLrST4LCdqR8SBVP9i1jF1v5clI7xplpTzmRnKlein__AEarpHRhj53DTJKIgAv4fVlObbq57U-rbVa7S5IYgRw4uUkkgrCU4CVHqeSKsCa-1p_T8qSVK7mGwpz0lE52jIHNQmbNsOkNZMvNslTs9CWHFtqG1oBQAOPHkjJ8hXTt1uRhaLMJsnvp7yWcDrtT6Sv2Ae-s0kYllYxjbNP0VEtJINrBQfseXc7xq1D8ufNcaaC5LiVvrKSTwkYzjGST7qv7J8z8aq3sRgtQbDMuLykpDzndoJ8UoGOPPkmnrS-txetVS7aG2kxgHCw4D6RKNuQfDoSadc0yyuLBk1Se0uJI3KNdul7ksybRa4Up9gndJeLTikHHRIJB9SjSDUl0n6f7J7YyJcoXC6ulxThdUVpR9IgHORxsFMWrHfnJ2mymknKVPtw2s8eiCAT-0--pV28W1wW6xvsNkxoqltqCRnbkJxn-7itTGNYIYjvzKZysEu7EmZbzE6bMlSngkpjo715ShwNyjgnrkj4VZklbSihl50JU4fQSV4KiOePOq17Gr7AGn5UV15Lb7TyniD4pUBz7iMfCuLq3dY6-YfRkWi2kK359E4OevrP3Csk0LpJnudkB9BKRt3EnRLe267vwrJAgQ33WX5b-SptZSrYkeY56kfCnHsiYkp0yqXLffdXKdKkl1xSsIHojGT6iarvtWuRuOsk9ye8jxo4Q0pIyMnJJOOnJ-4VddgYYg2GC0ypPcNsIwvwI25z--nO3oqVrLZuzQ7JgChfbZeHoGnosKI-6zImvgbm1lKglPJ5HPUppT2PtSvm89LlSJDxkPHZ3rilYSn0RjJ8TmoH2rXBd51NGXCSX4kdjago6BRJJJ-73Cre0a2wzpW1piq3MiOjB8-OffnNOZnQ0jWkZkocC1lk7SHksx3HHXNjaElSlE42gDk15zvlzuDtzdlwJs5i3mR3QWqS4Qkn6JPJ8Bnip52h6pduEQQbMlS2lK_OrJ25AP--Pj5Ur0HY4N30KYMxj00yVF4Hg7gcgg-WMVOBnVYukkGp9E2gxjEVWeqdS3Odf2pCZMtgLYA9B5aEu4BG4JzgA4P7-aufQNvdjwUXBUuQ6mbHaXsW6pSU8Z4yeOtVhr2Aq73th-1xVsJjt_J9q0kDCScdB6z6ulWj2bynF6bjwpLTjb0JIaJUkgLT4EH7j_wC6nWXFO3CLcU5L4csk66ruhtGm7lP3HcwwpSOf0sYT95FVJ2OflC4ahD0mdMdZjtFxQW-sgqUcJyCfIE1Le1EzrpFcs0eK4GFBCy8OQo5z93lSfsktcuzvT2ZTCu7eShaXSMcp4249h-41VE0R0rnZXP7KsZNOasOdLTChPynlkNMNqcUc-AGf3VQfZ7Jul_1rHXInTS2t5cpxHfr2hKecYzjGTirW1-m5y4XyCAyhcaS2pDxPXnoMeX4VE-zvS1w0_f25BSSwtBad7xWTtPII488UUobHA9xIuRkhhAaTfNRvteuFzh69eDc2YywqMgtJQ8pKT6ODwDjrmrc07cGYmirZKfkLW2IiFFRWVKWdvPXqc5pFr3SjGpIzRKEF9rO0kZ4PhnrUShaDuioaYDklxMAcd0FHBGc4PiR6icU_7U8LQ51rapY2Foa42solElXzWesZDkabMZYfdOO6fWENtjjIAOOAAPWakfa9enIarVY7fNfZLCCt1aHlA5ICUgnOTgZJ91T-3aZbtFlfj21XyeU4jaH0pG5J86icrs8-Vvl-fKS64RtK3QknHvq1k8D5MRNg3QJiZpcCdAu_a4xKidnLC4cuS25DWyS428oKUnG05IOT1BqG9krtyvGrmXJE-a4zGaLykqfWUngJSCM49fuq15Fuiu6VFnmTUKQGw1vW4ndgHI-GB8KRaStNn0_IfMeZHU_JKUfzgJOM4A-NVRytbA9mpztkotks0gXUx3K-sfjRuV9Y_GsViuYqLlYrNGDRzQmjms0YrKUFRoTstHCUoUR1A8abrncZ0e3OrtjMRyYnlLch0oQ56twB2-0gisaklPQrTMfj475tpSkBWMbscZ9-KoOTK1LJtNtkOTp0mc43veU13YTuVzk5SQEgYwAKHOaxoLt6001O6Ym2gUgm_wAIKRZbk7B1JpGdAktnC0pkJVj1jIAIPgQcGplZe0caotS5FhsV3Q8eErmRw0z15IWTg49VRL553K0aQYRLt7dwnkqbbclIC8beQSkAZwOmMUy6P13epepYUa9qblx7jI-TBxOR3Lm1RGEnlI9HBT05BFWQvikIsE6imkiBJ3La6aTvVw1BIuq21IlOOBZCQNpUCMZ8-g5q_wCI4p2Iy44ju3FIClIznaccj41ApczV3yt1EJqEY4UQ2sp5KfDPFYDut1j-dioH9lH_AKro1DXThty0W71WXh4FyPVLO0e3XW7s_IIm1UB5GHE4Gc5_3z4VFLVpC9W5otwSlgKACigDKscDJxzUgEfWzg9Ke2keYaNcpULVMdlT02_COyOCtScAfE1KJxjZ0Yc319kxIQLBw5Jhd7N582WuTKWp2QsFJccWpXGMY9nqqQXnSF3uT6BImuOtMgJaKvpbQAOSOp4raNY9QTWG30X91xlxIWhbeCFA-IOa6_NC8ufzt6ln3ppmc4g7pBcdxQZTpi9Ehb0JcExTG-VqQwQQUJykEe6s27s6TCVvakiOtIJQW8JwSMH7sjHrrne7KiytsrvGoJTCXVbUZUOSMZ6D1ioZ2kqvWlL3AbtcKZeopbK5OFqICt2AnKeR4Hp4jzpmYuGcoz7lNrnuP3XHkpyNARUyflDk1tL-_f3oUkL3ZznPnU4uht9wgLjSpUdSVjk94Ovnwa8_Ndp19aYU49oSahhAypbaVYA8-UeWK2jdqmj7tKb_ACxDmwHOApRTlPv2H91Z3EzOBe45aWspviAF3Pv5WVkI0jY231KVPjhKjzhSefuqTxpGn4NuXERLjhtaSlQyTnI5zTTYdN6bvltZuFpfZmwnc7Hm1FQOOCOehHlSS_x9IadfDNzCEPFHebEthR2kkZ-40PlZKcLnONu5UYg7W55LP5P0m31mt464yo09xtT6dgwW4jc1AabTsSkDw8ua6xtJWV1pt5mOyptxIWlQQOQRkGlTel7WjpGaH_SPwquSaF-T3OKRI3g81Evyho1s4TtPkAgfjTrE1nY40ZLMRD3dp6BDeAPhSafLjQdYxbKmzOKYdAUuXjCEJ2kk5xjjHOaq_WvbZb4cx-FpK1tSUtnb8ukE7FeZQjxHkSfdVhMcuRBPiUXA1HqrNXqSy7ipFskrJOeGj-FdmNZNMtlMWzTNp5xtI_dVDQO3C_wJSF3CBb50QqG5HcFpWPUpJ4PtBr0LaNTWW7aGOp4LX8jDC3ShwYUlScgoPryMcVGTo26tuPFIEX-X1KbV6ocUrKdPPknnJoRqq6p_o9gKc-ah-NN2hNe_l7UYtk6DHjh1kuMlI5KgASn18Z-FdO2e5TLPEs6ra8qP3z60OFHBIABH7_jSxx4sBZ6lSAsflCWL1DqF0hSbMyD_AGlD8a0F31UrPdwIjfv5_ZU_QElCVBI5APSq6Rqa4jtfdsbr6U2xCCoIwAMd0Fcn1EE5qLZ2G9ox6pC5OQHJdlS9Yu9BFR7E5_dWO71k5jMxpH2WzSKw327au128bdJcj6egLBWUcd7jok_aOSfIVFe1btXv7WppemNBREqlw_RlTFICyFY5SgHgYz9I-PSpGfDlhaPLRMYyQABfwU2_JerXc77ssD-yg_jWDprULv8AOXqR7gB--vOV81D2nxtrlynXlOcK3syFcY-zx7anfZN24z2y9bdarMragqjyuEubh-gvA5z4HGc9akKlzvwi0-ACHCdnzZeStH5l3Nw5du8tX_UB-6sOaDWhtbki4yylKSpRLnQAZPQVvO7WtOwYaHZJkIkn6UXaC43zjKgDwPHmmN7tptT5Ww3BdUhW9tf51O5IxjcPAj31MS1etrclUJXk2Dl303p2y6jakO22dJfQysIWVOKHJGRjnnipHbtBW-FMYkjcpbSwtOVqPIOR41D-wSSImndQubFOBhaXdiBlSgEKOB6-Kd7xrbUrVqcu1v08pNtaR3inJSSglPmE53Y9eB7KrdUzvJAdkpvDr2uVZdFQWRrdb_Zi9qeBHSh9tICmVncEqCwlQz49cimTTeqdX6ndiO26GyzBbV3cqSQNhVtPQHk4JBODx0rI2IkXuodGVauKKOKzxVaSxWqlFJGOh8RXVKM89B50huE1iECXnRu6hA602AuNgnfDmUm1OlC7U8yAFLeTtANULp7WjEa0FDsIyJjAS2EbhhRztzzUu7Uu0eFZLDJXEnRnL05hEeOlaVqRk8rUnnAAz16nFefLpKCpjt0tClOQn1d6tA-kysnJSoeHPj0oqaduENdqtlBUuYHFmn1cq0pd-lsvw3bpCaXADylLLZKl4UPYOnNO2mm7dedeW2Nbi24lh4y3SAfRCEnBPrJIqnLhqQ3FtpiDb0olrIBU2BucPsFemeyPSCtK2TE5YXdpyw7KWP0DjhAPqyefMmowQYPvkWV1bXgjA3O6sKKju2QnHIJ_bXRSkoSVLICUjJJ8BQgjbhJBxx1zUU7VrubLoK6vtq2vut_Jmj_ac9H9mT7qfzOXPa3QKlXda39N9j6oVIfNl_Ki20thRCSgc7MeWw1bHbepLvZlOdaXlHeMOJUD1G8YP31WDrrbvZSjTzdmuKnWz8rEsRl7N-ck_R6beM59dP7t4_Ln8HiT3i98iF3cZzz9FxO0_wB0j4Vpe0hzSVcQDonqz9pFp03pWxxJjUl11uM0h4NJ5b44yD6vDIJqb3vV1ptFgj3h-SlUOSAWFD_mZGRjx6VXUg2xz-D4sMqYU4WQVbSCv5R3gyT47v3eqopqRp9PZ32frfQtbCX3gU4JyCsFIx6wDioljXG9t6WG6nNyukXW4gPzrZJjNQHi80l9OEyApPoqGcHA8vZzSfUF-YtjCXHQHH3lFMdk9XVeJPHQePt9eA-X2cibc3XI5KmUgIb4xwPIVVt7eVP1zsdI7thA7pXlgkftBPvqiR-FtwNF6KlhEMQuMzqpRYb_AD2JCW5gdekOLw5vQUBIJP0VdD7KZtcTLbGdkR1Q4tw7rcVtyGmiU85wCfSPXqKlky5sssoCW21PBIO4kJJHXAPnUIvb8O9quKmoriJi30oQ24oE9BzkHB6ZrHFJIXAqT2ssQDr3K0-yBNsttjTarawIu8mWG-8KwreATjJ4xxwOMc-dQ2721WttS6xltErTAY7uNt6FSDwPftX8a5Qrgu3NxZLain5Gwt3enqAgHaPflI99OHZvpW9S9NpnRLyLeiWtSlJSyVKWQSNxOR666paGnETquLVRNik-6pT2TXd27aBSyy4BNhpVGSpfODjLZPqwR8Kjt_vOsbXdoFqXcIzs-YQENxwTtycAnI9p91J9Cre0b2hXezTFFxh5orSUJ2hZSnvEkDwyNwxSbSuo4yNUTtR3tt92W8CmO0hJPdJPu8sAe-kxpBNhdZ7b1v24Xq8R5zlniTXWosmAkOJbON24lK_iKiGmtK2JxC3F21hZTwN3Px5qd9oUBd81xp9xEZ_5NLiNg-gfR3KUcKPh15quGrWi0yHZaZqIrMnvAEJISAMHCSfPnislX-G0Xt_K6ezWgk_dB_hctYM20wn4sJMbeEFCWW1J6-XtpN2bXx5nsou1jUpZkSbqhKGsHIb2Aqx6tyQPaacI1ogx7WJ7Uh1e7GGVnx88fvp77P8AR06eq1NqgOqsrshb70jOAU5Jx5jnIqFGQwENzFxe6s2gzFZ0lgQDaycdbtxdPytKXezPNuuwG0MyA3zynnJ9uVCpB26PNytN2GZHIUy5I3oPmlTeRT3qvs4tErT0xuz29tm47NzC96vpAg45PjjHvqPT9IakufZxa7S_GbTPgyiUpW8nlracHPq3Y91bQ5pIcDzXGuDmrYhK3Qo582kn_tFUbruDMndrk2JbnA3KkxUpQc4ye5Po-8DHvq45txj6f06mXdnUstRmUJcOc5VgDaPMk8CvPNx7QFTdXP3wQUwn0-hEdUlR3FIIAJ6Dg-RqVLC55JGQ7-KqMoYTldWT2GXuKu1SLEthMa5xXFOLTjBdBOCo_wBpJ4PqxVerVbrX2kahinvlSbjcXXEvhIUklR9FPXPHI6YzUf0rrJ2-dp8R-TIi2i5reAEpKCGnV9MLT4bhwSOCT0Gameq51rtus5xXFUqUiU5lTYSk45xgqIrPWMwNIIvddLZwDpg8G1gm-7aliqku25qLI7xCu7UtzYjcrx2pzk1Uv5Jcl6-at0F3a866CXNv834nI8xVywrpBUhajHbXJIJBSpKlJPUFWOPhVW6LMlzW93uDbC3pTW9SGkqwVFSgOvhxnmsVHdhc5otl6ro1zQ4Na43z9FdWn-yOxxkqkSlPTH3B6ReOQSevAqt-1DRcXTzqrnZQDGZP5-OhWSgH9IDwFW9Zp95VZVtyowafDXBU4pwIKjjqecYpljaZvrspbd2fh_k5SCA13W0AHyI9WfbTbK9smMOzHqk-Fr48BbkfRMf8HfUYhWHV_IdkQ2EymkeK0AKx7gcD3ipELrN1bpG7XKZfG4yEIcQLejlS8J_TyRgHPgMYqtuxRabB2zuW5Ke8jSflEEg_VA3A-segPjXomPoHTLEwymrW2FK5KN6u7P8A0ZwffXVc8NOPjmvPkhpLTqq504O97A78j6inD96DU17GFBXZ9BA_RcdH_eT--pNCsFqhWx63RYLKILxJcYxlK89cg-wUqt0CJbYqY1vjNRo4JIbaThOT1OKpc8EEBRc8EFKqSXW5QbPbn590ktxobCdzjrhwEj_fh40rUoJGVcADrXkv-EDr5Wpr8bPbXlG0W9ZSSk8PvDgq9YHQe80o48Zz0UQpJrb-ELMcfcZ0rb22ovIRJlZK1jzCB9Ee05qoNQ651LflK_KN2fLaurbR7tPwTjPvzUcIIUPKtdua1g4cmZKWAHMrGBnPj-2lEeQplW5pSkLHG5Jwa4bSOtbJGOvj4VHVTSyFepsacxJbcHeNOJcT6IGSkgjOPDIr1f2Sdp9t1eREmLRAvBQR8nWobXD4ltR6-zr7a8hpQB06eFLLe6WZSFA9DVrGNeMByuqZASce8L2v2d6Pl6VVdFTbqu4rlrQQVJKdoSCOcnrz91Ke0DSA1jBhxHpzkVlh7vlBCArvDjAHJ46n41RGgO2e6WNxmJfVOXO1cJ3qOX2R_ZV-kB5H3GvS9snRrnb406A8l-JIbDjTieikkcGs9RDJA-7uabJcea7JZQmMmOE_mQju9nhtxjHwqDWzswtcCyXi0tzZqodyKCtJKQWyhWRt491T2s1lDiNFYCQq9f7KdPJb_pM6PGKUiQhD4Sh_b-kvjjpziu11nRJLbMGGlpEKLhLKEpzjaMAjy4zjnp7eJLdoEmdzvZKB0acBx7Tg9ar3tGu50lbUqejoVMk5TFShzclSh13A87Rxn3Dxq4P3uN11aKOIffcbn9vdINU6js-m2WnrjJDSlqCUtoO5xXrCPHHu_ZihLdqG4u6pk3JaMtPHCWVdEtg-iB5Hz9ZNJbup6dLflzXFyJTiiVOLOTnqMeQ8hW0f0CCkc9azvddaZZnSGwyAVjfPqCiEuJMbe2k7kqQ5sWPUQevuNNli1Aw9cHH2me7hBfdtgc4cUOpPifD31BZwD0hBCidwyB5eea4x4y21qWw8tskckeIqUIZG4OsqRI69nZherOyiI1c0TZslltxkNojpSpIUFHO5RIPsTVlsstsNJaYbQ20kYShCQAPYBVH9gmr4EKBJtN4lIjy3pAcaUsYbVlIGN3QHI8avSpS3B7lz6qTpJS5aFpoud4W0FwfpbRn40BCE_RQkewAVvUV1hr7TmkcpvNxbRJxkRmh3jpH2R09-Ki1rnmzc1QTbVSnPlXmXtCtztg1lKiOupajrUZEUrXhKm1EnB9hyPdSjV_8ACIluhTOlra3GSeBIm_nF-0IHA95NN_Zzcbdq_TWr7h2gLl3B-I63KS-ykqfQCgpIQE9E-iOPojqcdatfSODCXq6kqCyQYVHJ11S02Wo7odKj6SslWT6q9H9ks1hekIEHfsnR2UuPMKGFpS4pRQojyI8aq7sfjaQn6gDSrZcXJRQX2TKSlxtCAfpL2k49WeDVXal1zc19o101FZZ78RanlNsuNqx-ZT6KUkdCCADg-dRpIC8ObotO03Frg12vuva9FeY9MfwgL1FDaL7Ci3Frxcb_ADDv3ZSfgKuHRfappjVklqHElLi3FzhMWUnapZ64SRlKvZnPqqySkljFyLjuXMEgOSYe1hTF01bZbRcnQ3bI7RmuIcOEPOFWxAPmEgKPvFdr7a7CuAiNKioeQU5SltBVj1jAwKdO0qxxLhOgy35Mlh1DK2_zDhbLidwO0qGDjPrqMu2mz3xTTdwYXJiMICGy64c5A5wknnqeawTkOIz0XcoGEQ3AGaoTtE05F0_empUYvu2185bWMbkkdUknxHrqxpCRfND27WbxWRn5JMSk-mlaDtSvOOSpITn181v2gWGJJ-T2978xBQ6hSAT0A459xpo0Xq2Oxa79p6JbEyrWl5UiJGwcuJACCSfLjf51spXmqb0B14rNUxmkk6dnL90jk6ijPd2xaGlLWcpHoemsnz8TSns3t0mz9oymLiC1JkRA6pKjyDu4z5E0-aPv9p03CnzZlpbDzSMoeYGUpUfotZP6R8x4daqG6apmKvUy-uuoVdHHEKQfqHeFYHH0QlO32H2030LqYOY7U-am6v6R7XjQb16fvMieuc6mNaPljZQkd4ZRbbOOg2jJz66WJmOPWRSri0IrjST-bC9-AB54GajWj9VpuVoYnsONpQ-2FqQ8CoIOOelZv8xS7PLkKWvulJ5dKcbvJKEjzOB665MhINrLrMe0tyUBjXy32jtfssmNGU821Icjv-iMBbiEArSfMBQ-B869Ro4yPKvDke13ZN9dfmWu4KkLd7wpLSsY9w64xzXp3s01beJVljx9QWO6h5pOwTUMFSHEjoVeIVjGSAQetdjowYWkG5Xl6nEZSSLKyKwa0YfbfRvaVkdPIj2jwreqFQVBu2u7LsXZ_cLizIWzJQA0wEnG5aztHwyT7q8VtklZzyT516Z_hYzXGtNWGEk4afmLcWPPYjj_AMzXmdOBtPh0rZGTgAVjRvWq-F5PQjFbMcp99cpKsA10j8IGakmt1JGa0I5FdwQetaKA8KE1xA9I-RpdZbe5c7tDhMEByQ6loKIyE5PU-odaRnGDnqKdNK3BNr1Dbpzme7jvpWvH1c8_cTVcr3sjcY_mANvFTja1zwHaK0ZnZVGEPZbbjMXMTxvfZwwteM7AQPRPvPhVh_wYLlLVp-9WOduS5apgCUL6thYOU-5SVfGno3mKqAIkZpx6PK_OMPNnKD3igoK6YG088446eNQjsavsVXbnrCLGcR8mnhfdbei1tKGce7eawU88kjQwyYwW4s7XBFuFrA3ORzFjmrqmNou7BhINt-Y8944969D0gu8gtNtMoCit5ePR8AOSf9-dLqQOKSq7q3kBLTHJPROTyfhVrdbqmNocTfgqBm9q950x2gXqOXxcrOJJbRFfVgt4AB2LwSOQeDkeyodqfUM_VF1dudzKS4cpaaQSUsI8EJ9XmepPPsjevnWXNX3Z2MvvI7shbravrJUSQaT22Qd20qPgUnP3U5icRst8LGt8V3SEvOPgdfRV8Dz-2uWC2Vn_AOtWfdnmurDoTeUDgd4FA-ut04U863jlRWk1TvVoXBpAT368cgcU72HT71yZKgru2uEA7CoqPHQe8D30yId_kiyfEfuqfaO1E3ZtP3FTLrce6xm1SIbqwCCrBzweCQCSPZVMznNw2NgSLngPrlqrogDc2ubZDifrNMl0tEq1vlx3CmFEo3AY2kD6KgeQaufsO109cJB05c3g4ttorhuKPpFKcbmyfHAOR6gR4VtfbPom5AL1H2hIkubEhRM2K2VAcjO1OfGme2xOyCyXFqbE1er5YwdyHGpylqSfVtT6zWxryGlshvwPv3-CwzBstixpB9PLfZXlc5rNst0qdLVtjxWlPOHySkZP7K8AXe5PXS8zZ0hSlvS31vKKjzlRJ5-OK9P3TWfZg_EVFuGpLzOYWnYpnvZakrT5EAAEUywbr2MOz4sKJZXS_KcDLLj0R0I3q4GSs8c1ZDUMivY6rMaZx1B5Lzco5Vg1avYReUWZvWDikhajawptBP0179qR8V1Vj_Dy85yFEHNPei3VIvWwKIS60oKHgcYI_ZWqoeeic4K2gga-qZE7Qmys_Rt5TpXRmvNhSHvkbPcq_SDjmWwAfIE5xVQQI0iWFIhRn5K207tjLZWcDjOB4dKd9VzXEvPxm1YafKVOD62wnb95NXv2IaTtdo0c3cLovurjPy8te5SFx2v-WBjjn6XOc5A8Kqp3OZFibqVfthreuPG4Fea9ykIJc4UOo8jXe0XJ213eFcGCQ7FeQ-nHmlQP7qnXb_CiQtR29bCUImTIoclIQAAVZwF4HTcM_Cq1J58sVbBUmdgd9XBsfJc2SIMNl7Q7SLs27pi3XaK38ogvtlagE7iW1o3cD2VD16nsirHEcivmSEpSprO4pAxx14GKZHb6uV2FaOZjNtPyZDwtuxajxsK0lXBB4SAfVTB2dxoVrsSJE7u3O6Xnkbi2rKgUj1kpz7651TTkNL_JdLZ05_CC01LOmXrU1rjSmVJjyVlYSokEpQkqGceGcH7qhliniFrKQ9EO1sodjoSDuACuMg-PnU-ixrTrPUIcvNwlwEoO1lhn0d2eeVg55x09VMPaGza9PPmzadhJXIfASHslbvJwQPWfjzV1E3oQJSfJdCt2dLhJlNsr53z_AIUY1BcpdxU9FtzciRGjlcgpbQVbckblkD3VHrZp-83qV3EWBIAVyVuoKEj1kkc-6vWvYr2fjSWny7cW0fleYUuSDndsAPoNj2ZyfX7BT7q9jvbpHcUCvDRxk5Awf_dKeeR5LtSVzIYmPcATYBVn2Z2lvT9qNquLjLrkMbi4tIwAr0s8-HJqXxYjl4ubUgNOGMx_R2j6OTj6aiehIzgeA9ZpPb7WL5dtwjt4aJSCDnKRzlXh16Dnp4VNbJBiyW90kEx0cBon0VqzyVY648jxk1zXE9I1o-Z1znoALXy35nLRWzSkMLWn7o4b76eFrLNqsDCFJflpbcd_RaR9BPtPjUkiBaGxvUAc59HoB5U0vwG4T7K4qQwhxtXeto-gCMbSB4HqPX406hQLaUuAhSk5I8vOph7xIY3m9gDw1vuzzy4rPGAW3su7kZp9xLwyl1IICh4jyPmK5LQUHCq6tlQdSQrgjG2sXA7Yi3UJ3KQNwA6nzFaGO3KmaK-YXmn-FtL3XHTcMHhDL7xHtUlI_wDE1QaRlsfCr3_hatpF6025g71RXkn2BaSP2mqJZ-jiugz5QqBokj6wpSB50pb-jSfulu3ANNpKlE-iB66kjWmLgUDd3SfUVVY2N8nyAlVyTRxfiOA8TZNKTxzWVCnv5szuOWf71Z-bM3xU1_eqzq835DyKq67Tdo3mFHVjxrCOGyT76kKtMTT0Uz_ermrS88hQBZA-1R1ab8h5FHXqbtG8wp63NcsnZBb20yHGpNzt82UytKyFNhDqcY8sgkVAOzS6Lsuu9PTWyU93OaSr7ClbVD4KNO14Y1BdY1ujyfkndQYJgMhB2gNlW7p59BnxxSOy6alx77bZEotCOzJacc2qydqVgnHuBrBQbLmp8biw3cSTlxJ_haKnalPMGjpRkLahe7emR5VE9SJVIcmxGF4ee7oLA8GsnI9-PhXA9pmlcn_5B3GT_wDrOfhUQi6zs6tTPy5U9aYywshaWl5PpeiMY8E1fFSzB1yw8iow1lKQ68rRlxCqLtwsDFh1LGMX-bkR-8KfqkKIIqAsuFjCyCpk8HH6NW12xCBqK5QpFlnKkhLa0ud62pBTlQIAyOfGq-jWGUynlbSgTgpz1FRkpZybiM8ith2jSX_Gae-4SFZV30aQM5SoHI6EedODSgLjIJ8Fce_FSGw6Hu8hgOR2mX7e6ogpLoBSehIzTg72cXhLrjjIbUV44U4nw9dcaXaNHE8xySta4ZEEgEHgV0I43vaHsFwc7hV3IWEwyB4ggfCszF7itIPVjHs4qZSezPUS2kpQwwcbv-cmk8vsx1MpwlqPHI7spGX09cY86h9q0Hbs_UPdTEUoPynkoazHTHmONLASQv0ikY8AP3GpojSkbu1LVIkEY3cYH-xS-89m9-d1BPlRGWFR3SFtkvJSc8EjHtKhUqjaSuAjNB6O0pxKAnl0HmsMm1KQfLM39Q91J8D3PJLTnbiobF0xCktJdJeI8t_FRa-Mm0XxJjhSRHfbcST4YUMc--rji6TltbstNnJ_SWDimjUnZ9OucuQ4kNlLkUoGFgYcA9E8-sClFtalx5zNt_2HuoGneLHAeSoxZJcc3fSKjkevNO2klYv8UE4zuT_2mpM72VapU-tYjR8KO7-fT18fGldl7MNTRLvFkOx2A2hYKiH0niuy_bOz3REdOzT8w91TS080dWx5YbBw3d6hWqF7ru6hKt2MJz95_bXpPRtyctOkdDjUU9RevbndN_mk7keipTZyfVsTnGcqFU5cOy7U8u5SpBixwl1wkAPpHo-FSbtAs-sNRRrIVW-JARaWi0ylmUFJB3DaoZOchKUD2iudW1tDVCKMTsFr3OIXGXjvOqveJzPK9rCcR0te-arftPhzoXaJeI10kOSJCHypLrnVbZGUHA4A2kcD10wRo706WzEio3vPLCEJ6ZP4fuqxta6d1Xq2-m5zYkJp7YG8oeGVJHTPPXk8-VKtCaNu1nubsyWplpaWihvBC-Sevq6e_OK30m1qNkDWvlYCBoHBVs2XPNUhrmuDSdSD_KU6etSlzYVnBd2wd7aOcp3KSO8cA8Crp7KcNTPRIcKLbbayFhro00P0vE-7JGfMmnRmBNitvPRQ2mW6FIWQQN2fEHqM_cPXXSxWFmKlb84NuTXD6axk8eAHkB5VTPtellcD0zbf9gvYUuz4qWQSNGQUHlMvM2R1TuUyAoOghJBCt3GB1PUVZnYr2fXA3V7VWrYi2pR4hR5A9NGerih-ifAA8jrxxThpK322HqVi7XOcUoiBXcx0tqXuURwonHG3nA6558Ksb522c5zLV6Xh3SuD8KY2pRD_AFm_qHuudt-SeqkEcUZwjfY6lPSEhR2n6KgQfVUaEd927LQ-N76VYx4bf_Y5pR867QFhQkq_wlfhWytV2QSy8h47lpAUrulZ46eFTG1qJrsXSt_UF5l2z6t7SzA4A65FOrbUe1RQ1EQErxhIx95pKbW624h2FhGTuLajjCiOfd6qRN6osYlqdXJURjgd0o8-fSsRdX2wSnlPSVd3zsw0rP7K4FRXRyzB75gM7DC4ZDeSe9bWUUzGYGxm3eD9ZJ8jRpHe75akKAPooTzg-dK3CnkkcDqfVTGjWFmU4E_KykK6lTSgB91a3nUjMW722zsZVPuIUWiMENpA-kfb4eyuxSvge0iB-Ljnc-azyRSRkY24fKydnpseAoKcV6bnRPj_AL8K6sSpEnrHS22frnk_Ckos8dUxEl_Ly0YKN_QEDG4-Z68-ul65DMVG99xtpH1lnFag1282WfFe5IXmf-Fudt00zu4_MPjk_wBpFUO39H2V9D7raLdd2e6usCJNaHREhlLgHxFQK89iOhbnuKLQYDiuq4Tymv8AtyU_dW1k4AsQsvRkaLx3poA6pjZGcpJ-ANWN4VPr72AQrB8ovlrvspTcJlx0x5LKVFQCScBacY-FQm2gKuEQKAILyAQfH0hXodkPDmPI4rynxA09LGO7-Uv-btyTHjvPNsR0SEd40JEltpS0ZxuCVKBxx1pNKtE-JEVKkRXERg8qOXeCjvB1TkcVLZMZ6-3e53fUk_8A-NgPrYSp48rAUohtCRgqwPAeY5HJDFq-4PSLo7E7pMaNFV3aI6FZAI43KxwVY4z0AwBwBW6OZ73BuXf7LlzQRxtLs-7v7-4Jhop90q5AiPvzbmppSGkhDbK2-83lRwo7c-CArnwJTT7B07Z1PQmXVpdRIdKW3kScKd_P7AAnyLeSVeBHuM5KgRmxBVUVK6VoLSFBaKmzEC0y40e3IcYakSHMqLb3eiOvulHO4Z3IGBnwG4-VNkJyOY802cxWJBlAt_LFIz8nwcYK-OvKvHp4ZoE4OgTNKRa5UcoqcR29O_lZp1pTCEh7vgsu4QNr6Bt2HjaUlZ55wBSdbNjf7n5U-gqW2lBdS8AWgmMFZCQME78p59nWkKn_AIlM0lv8gofRT1qmPbY0ttNpJLWFZV3yXAobvRVwTgkdQcewUy1cx2NuILPIwxuLSrR0H_w2z9tf_lUjQhTiglCSpR6ADJNRzQf_AA2z9tf_AJVNbPkNPltKVO46EZBGDwfVn78V-a9uQibbdSwn_Uf-5X27ZD8GzYT_AMW_sEhfjPMY71spBxg9R0z1FcakkhLAS9tU6tnu_wDnpKVE4OfAcA7evj0qOo-knPmM1y66kbTPAabg-f7ei6EMpkGYWtZp2WYkiXI7xRKEKOxOUoBG45wePDFcnURGlxVMAOekCresYUMDIPPHORSdREDEHgj11tpn9eITE18rZptrNO6kxHFYcUhWXEFRK0hSU4ORkcHnHI865Msw3EocWpKApI9HvOQrccjzxjHPrpmgdewcN_ol0wtmCm2inINR1xtpSyh0FzGHfHaNoznp1rcswA6EBQUDvO4OeX0R7-eaQoHHPEN3r5J9MOBTVSK8f0FftH7acZAQH3A1nuwfRyQePaKbrx_QV-0ftrKG4X24FaYTdzSmAJKiAkEk8AAdaUfIZXH8md_uGtrX_wDkY-M53eHsNbxYz4iSR3D3poRj0D6Xpj411Iog4XN9_oF0HvLTbw9UldZcZUEutqQTyAoYzXOlL6FtxmEuJUlQUvhQIx9GlsOVHj2ghxAcdU44O72pO4FAAyTyADkjHiKGwtc8tJsLXzSMhDQQLpqop9VHtanH0oKUoQop3l_nbsyFgfpEq4wP35rqiBblILv5vuh3QVmRy2Fb9xJBwVeiCAPh4VcKB5Ng4fXkqzVNGoKjtFP70S1AfydQcUEZR3j4Qlz6PJ5ykjKjg46erkTGt0gxiVMNAJZ34exkYVvznxzt9dHUXXtiF0daba9imCiltxajttRFRinK28rTv3KCuOTg4GecdPWKRVkkYY3YSr2ODhcIqT2KfEt9wNydjF6cYrcZtal4S0gDnHrJ648hUYq2dP2Zt6zQXVuEBbKCQlPq9dep-EyRPIQL5fyuNtwtETQ5M6NR3B3B3tAK_wDrb6fGmi6vPS3O-dLzr2MIHXb7AOnuqwGNN2tl_vkxsueJKjg-0Dj7qdGmGmRhptCB_ZSBXvXODhYiy8YW56rpRRRUFJMeuf8Ag2-f_wAbv_ga8qNLU2tC0HC0kKB8iORXri-wPypZp0Hf3fylhbO_Gdu5JGa8-udleq0OKSmEw4AcBaZKMH1jJBr0GxqiKJjmyOAz3rzG3qWaaRjomk2G5R92_OPOLcdt9qWtaipSjEHJPU9fGm2bJdmS3pMghTzyytZAwMn1eFTD-K7Vv9Xtf5lv8aP4rtW_1e1_mW_xrrtqqVujxzXDfR1r8nMdyUUgw0SkuqclMRwjGC6cbs56fCughgAKFwijasIT6ageT9LpwPGpP_Fdq3-r2v8AMt_jR_Fdq3-r2v8AMt_jQayC_wCIOYSFBUgfhHkVHPyaynlF1hZHonClDk-7p661VbWxtCLjCWpSwgBKlf3jkcCpN_Fdq3-r2v8AMt_jWP4rtW_1e1_mW_xpdcg7UeifUajsTyKjQtzPeBKrlDAUgqCgSRnjg8cdfurC7ewjvALjFUpPTbnCuM9fu9tSb-K7Vv8AV7X-Zb_Gj-K7Vv8AV7X-Zb_Gn1yDtRzCOoVHYnkVGXLeylpS0XKIohvfs9IKPH0Rx1pvqbfxXat_q9r_ADLf40fxW6t_q9r_ADLf40xW041kHMKLtn1J0iI8invQf_DbP21_-VSVp1xlRU0spJGDjxHkfOuGlNIXy3WZqPKhpS6lSiQHkHqfbTx837r-q_6ifxr89be2fWS7UqJoY3EF7iCAdLnMFfYdkzRx0MMcjgCGgEHwSJ2W8633a1Du8hW1KQBnz4rigAqSCQkE4JPhTn837r-q_wCon8aPm_df1X_UT-Ncp2zNoPN3xPPiCugKmAZBw5hIvk6OcSGcesmgR0lCT8oZyRnBJ4pb837r-q_6ifxo-b91_Vf9RP41L7Lq_wDbO5OS6zF2g9EiLCNpIkNZGeOeeKwthCUFSX2lcZwM5pd837r-q_6ifxo-b91_Vf8AUT-NB2XWf7d3JyOsxdoOYTXRTp837r-q_wCon8aPm_df1X_UT-NVfZFd2Lv0lS61D-cc010ivH9BX7R-2pD837r-q_6ifxpNcdM3h-KpDcQFRI6uoH76kzZFdiH9l3IqcdXAHgl45qFMuLZdQ60ra4hQUk-RFOIv92AWBPfAX1AI_wBil3zMv36kn_HR-NHzMv36kn_HR-NdSPZ20o8mMcPC63Pq6J_zPaeSZps2TNUhUt5TqkDakq6gUMx0ONhRktNqJPC_Cnn5mX79ST_jo_Gj5mX79ST_AI6PxpfZlc52J8Tj43T67SgWbI0eYTV8ib6fLY2facfsoMRsbkicxkEeeDx1p1-Zl-_Uk_46Pxo-Zl-_Uk_46Pxp_ZdX2B9VHrtP2w5hNKYSTtBlxkkgHBUeM-HSsmEgZHyyNnHmfwp1-Zl-_Uk_46Pxo-Zl-_Uk_wCOj8aPsuq7A-qfXYO2HMJgdQEOKSFpWAcbk9DWtSH5mX79ST_jo_Gj5mX79ST_AI6Pxqo7IrSfwjyUxX03aDmFHqu_TP8Aw_bf_wCdH_iKrJOir8pYSYjaAeNynk4Hwq1rVF-RW6LGKtxZbSgq88DGa9N8NUNRTSPdMwtBG9cLblVDMxjY3A57kqooor1y82iiiihCKKK0eJS2Sk4PFCFvxRxUWXqpptKVOx5yMk5_k5UEgeJI_Z1rrJ1K3HddacZmlxvPooYKt2DjjHtHxoQpJxRxUdiaiakyEMobmoUtRSkuRlJSfXnwHtp175z633UIS3ijikXfOfW-6jvnPrfdQhLeKOKRd859b7qO-c-t91CEt4o4pF3zn1vuo75z633UIS3ijikXfOfW-6jvnPrfdQhLeKOKRd859b7qO-c-t91CEt4o4pF3zn1vuo75z633UIS3ijikXfOfW-6jvnPrfdQhLeKOKRd859b7qO-c-t91CEt4o4pF3zn1vurR2S6htahlZSkkJA5PqoQnDijimP8AK7wbClxJeSSNqG9xGAD6vOsJu7xCf5HNyRkjuxx99CE-8UcUx_ld0oaUmJMytW3aWwCnpyfIc_dWF3d9tRQuJKKgcZQjck9cHPu--hCfeKOKZGbq64vaqLLbPmtsYzjPX7s1oLy-AAuDNC8AkJQFAZ8M5oQn7ijimP8AK7vd7vkkzO_ZtDYz7evSsKvD4wfkcsoJI4RyOcZIoQn3ijimAXp47_5DO9E45bAyPMc10cuzqA6TGlq2YI2tg7s-VCE90VzjqK2kqV1PWulCEUUUUIRRRRQhFaPjLagaKKEJNtHr-NG0ev40UUIRtHr-NGxPlRRQhGxPlRsT5UUUIRsT5UbE-VFFCEbE-VGxPlRRQhGxPlRsT5UUUIRsT5UbE-VFFCEbE-VGxPlRRQhGxPlRsT5UUUIRsT5UbE-VFFCEbE-VGxPlRRQhGxPlRsT5UUUIRsT5UbE-VFFCEbE-VGxPlRRQhGxPlRsT5UUUIRsT5UbE-VFFCEpYGGwBW9FFCEUUUUIX_9k=",
+  "height": 179,
+  "mime_type": "image/jpeg",
+  "width": 320
+ }
+}
+";

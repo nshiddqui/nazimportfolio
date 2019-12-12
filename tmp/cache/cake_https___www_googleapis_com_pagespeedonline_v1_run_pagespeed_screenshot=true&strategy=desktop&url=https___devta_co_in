@@ -1,0 +1,763 @@
+1576084713
+s:35932:"{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "https://devta.co.in/",
+ "responseCode": 200,
+ "title": "Devta Mahavidhyala Morna",
+ "score": 85,
+ "pageStats": {
+  "numberResources": 28,
+  "numberHosts": 3,
+  "totalRequestBytes": "2350",
+  "numberStaticResources": 22,
+  "htmlResponseBytes": "31180",
+  "cssResponseBytes": "304500",
+  "imageResponseBytes": "655855",
+  "javascriptResponseBytes": "152768",
+  "otherResponseBytes": "162221",
+  "numberJsResources": 7,
+  "numberCssResources": 7
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Avoid landing page redirects",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has no redirects. Learn more about avoiding landing page redirects.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Enable compression",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "You have compression enabled. Learn more about enabling compression.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleImpact": 10.5,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
+      }
+     },
+     {
+      "header": {
+       "format": "Leverage browser caching for the following cacheable resources:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/animate/animate.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/bootstrap/css/bootstrap.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/bootstrap/js/bootstrap.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/css/meanmenu.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/font-awesome/css/font-awesome.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/jquery/jquery-3.1.1.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/jquery/jquery.countdown.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/jquery/jquery.meanmenu.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/jquery/jquery.plugin.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/jquery/plugins.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/css/one.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/css/style.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/images/count-number-bg.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/images/loader.gif"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/images/logo.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/images/sm_logo.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/js/custom.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/on_fly/1349x457/DSC_0349.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/on_fly/1349x457/DSC_0835-min.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/on_fly/1349x457/DSC_4542.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/on_fly/1349x657/about_us_bg.JPG"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Reduce server response time",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your server responded quickly. Learn more about server response time optimization.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/Server"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleImpact": 0.24480000000000002,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting CSS code can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify CSS for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "2.4KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "15%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/css/style.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "1.6KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "16%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/animate/animate.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "448B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "11%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/css/meanmenu.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "240B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "25%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/css/one.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "120B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "11%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleImpact": 0.1772,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting HTML code, including any inline JavaScript and CSS contained in it, can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify HTML for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "1.7KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "34%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/"
+          },
+          {
+           "type": "BYTES",
+           "value": "1.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "34%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleImpact": 0.3215,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting JavaScript code can save many bytes of data and speed up downloading, parsing, and execution time."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify JavaScript for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "3.1KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "35%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/jquery/jquery.meanmenu.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "1.8KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "52%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/jquery/jquery.countdown.min.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "709B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "34%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/js/custom.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "320B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "26%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/jquery/plugins.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "249B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "20%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/jquery/jquery.plugin.min.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "136B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "11%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+    "ruleImpact": 2.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has $1 blocking CSS resources. This causes a delay in rendering your page.",
+       "args": [
+        {
+         "type": "INT_LITERAL",
+         "value": "1"
+        }
+       ]
+      }
+     },
+     {
+      "header": {
+       "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "Optimize CSS Delivery of the following:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/assets/bootstrap/css/bootstrap.min.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleImpact": 2.1503,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Properly formatting and compressing images can save many bytes of data."
+      }
+     },
+     {
+      "header": {
+       "format": "Optimize the following images to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "value": "21KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "55%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/images/logo.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "18.2KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "77%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://devta.co.in/public_assets/images/count-number-bg.png"
+          },
+          {
+           "type": "BYTES",
+           "value": "2.8KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "20%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Prioritize visible content",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "You have the above-the-fold content properly prioritized. Learn more about prioritizing visible content.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ },
+ "screenshot": {
+  "data": "_9j_4AAQSkZJRgABAQAAAQABAAD_2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj_2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj_wAARCACzAUADASIAAhEBAxEB_8QAHAAAAQUBAQEAAAAAAAAAAAAAAAMEBQYHAgEI_8QAUBAAAgEDAgMDBwcIBgcIAwEAAQIDAAQRBSEGEjETQVEHImFxgZHRFBUWMpKToSNCUlNVscHSFzRUYoLhM0NFZJSi8SQ1RGNzssLwCCVyg__EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBgX_xAA1EQACAQIDBAgEBgMBAAAAAAAAAQIDERIhUQQTMUEUFVJhgZGh8AUicdEjMkJTkuFDscHx_9oADAMBAAIRAxEAPwD6poqA-l-if2w_dP8ACj6X6J_bD90_wq2CWhj0il2l5k_UVxBrCaPads6cxPQb-gdwPeRTX6X6J_bD90_wpvdcS6BcqFlu2wOhETgj8KpUp1HFqHEtHaKKfzSVvqS0WoST6Y9za25mlAysQbl59gRgnxBB3pjc6xqdtbNPNoxCqAT_ANpXbfBzSVtxPoFvCsUN0Qi9MxuT7SRSMnEPDhkaRruTmc5OBKBn1VMITwrEsyHtFG-Ul5ncXEt5NOsMWkhpG-qvypPO_D0H3VLadeX1xMUu9Ne1UAnnMyuD0wNt99_d6ahhrvDgGBdze-al7fijQbePkju35c585JG_EirYJaEdIpdpeZY6KgBxfohz_wBsO23-if4V79LtF_th-6f4UwS0HSKXaXmT1FQP0u0X-2H7p_hR9LtF_tZ-6f4UwS0HSKXaXmT1FRw1qxNt26zZh5efmCHp7qVGpWpAIc4P9w1i61NZOS8zdRbV0h5RTT5xtv0z9k0fONt-mfsGo31PtLzJwS0HdeOwRGY5wBnamnzjbfpn7Bo-cbY_nn7Jqd9T7S8xgloeHU7cZz2ox1_JnangOQDTT5xtv1jfZNRXEnGWh8NWJu9ZvDb24BPN2LvsCAdlBP5w99WVWEnaLz-pVRks5D19dslXJMueYrjszkkV3BrFrNIiJ22XOF5omUH3ioLhLyicMcWm6HD-otdi2CmUi3kQLzZwMso32O1WCPVLSQMUlJCsVPmHqOtJVIRdpOzJUW80PI5A_Ny52ODlSN_bTS81K3tJeSfnG2chSR-G_dXXzjbfpn7Jrw6jbfrD9k1XfU-0vMnBLQQudZt7eR43ScyLgBVjyWJGcCpGJ-eNXwV5gDg9RTX5xtv1h-yaPnK1_WH7JpvqfaXmMEtBCTWrWN1VxNlsnaMnG-N8URa1azRh4RPIvP2eViOxx19Xppb5ytf1h-wa8jvrSNAsZ5VHQKhA_dTf0u0vMYJaHFvrFtPdLAizBmOFJjODtnrT-OQSLzLnG43Uj99NRqNsejsf8BpN9Yso5FR5SGY8oHI25wT4eg039PtLzGCWgXur21pKY5e05wQAFTOSfClbPUYLtuWEvkrzDmQrkZxnek11azZcrKSOn1D8K6GoWnNzBzzYxnkPwpv6faXmMEtBa7uo7UKZObDE9B4DP8KYnXrMDP5bf6o7JvO2zt7qc_OVt-sP2DXh1O1HWQ_ZNN9T7S8yMMtDuG-hluTAvP2gBO67bHx_-9aUurmO1j55iQucZx_98Kb_ADpafrf-U14dWsh1m_5TU72GqGFntlqlteTPFAXLISCShAyPT7afVGrqunx55ZVXJycKRk-Ne_PNh_aF9xpvIakWZI0VGHXdOHW5X3GvBr-mnGLpd_QanEnzBjXaL4152q-NV83d13tSQv7gycnPv3V9j8Pv9Dx_z9xZe1X00dqvpqvfKLknHab17211-sNPw9GLT7iw9qvprh5OZcAHqD-NQPa3X6w0c9yf9YfeaXp6MWnqWDtfQa97X0Gq9zXB_wBY3vo_L_rDUYqegwz1J9Zcc2x6112392q-4mPLhz0Ga55Jv0zU4qfZ9RhnqWHtvR-NHb-ge-q92Uv6Zo7GT9I0x0-z6jDPtF20nVmjhlspCvZSghST9UkVPrrJCgAwYAxu_wDnWULBLvzMajbjR5mlYxTyBSc4z0r5u2xoU1vdynrmz7Hw6rVqfgurbTJG0fPuOslqP8Y-NcNrwHW4tftj41i_zJcHftpffQNDnPWaX318zpuzrhQXmz6_RKz_AMz8jZTxFGCM3lmP8a_GuTxHEOt9aD_EvxrHfmGTbM0n2jXR4fcr_pJftGp6fR_YiOh1P3ma6eJoc_8AeNp9pazjyp64ur_KbRJ454oLLmJTBHO80e3uA99RH0eY9Xk-0ai9T4e1OPTtXFoizNLCqRKGw2e1Q439ANdmw7bQnUblCMLcH77rmdXZakFlNyLJ5Ctd07TuEbyNbi3tXa_kL56uAqgH1dcVoS8W6dEGxqkABYscb7k791YVw7wlLpGlCK8ljW5cg8oJKoT4nv8A8q7s4IbrUPkqRmVOgmVtmPgPE1lX2-DqPDTjLvsTHY21d1JLuubg3G2mj_a0fsU_Ckjx1pg66sPYjfCszXhMsMiF_wAPjXv0RI_8M593xqi258qMf4_2W6FHnVl_I0duPNJHXVW9iN8KTPH-kgf96SH_AAN8KzZ-G4UkKPGFYbkEjI_Glo-ExIivHb86MMhgQQfxqenTX-KP8f7D2CHF1JfyL-3H-kZ_7xmP-BqSbyhaOP8Ax9wf8J-NUleED_ZP3V2OD2z_AFT91T1hV5U4_wAf7I6DR_cf8i4nyh6Pg4vLkn1f50g3lA0V2GZ5ywORnG341V_oi4BJtNgM91JJw3FkOIfNb87HfjOKrL4pWj-mK8CV8Oov9TfiW48f6QBhZbjHgMfGk_6QNJ7zcH2j41XBw9F-gPdXX0eTujz7Kp1vtHK3kOraHNvzJ8-UDSvCc-0fGk28oGl90Ux9oqF-j64_0R-zXo4eH6lvsmnXG08mvJDqzZtH5slT5QdP7raQ_wCIfCuTx_Y4_qj_AGv8qjxw6e6B_sGlDw6wX-ryfYNR1xtfa9F9gvhmy9n1f3HJ8oNn3Wj_AGv8q4PlAtu6zb7R_lpD6Ov3W0n2DR9HX_s0v2DTrfa-36L7E9W7L2fV_cVPH1v3WR-0f5a5PH8WRix_FvhXI4dkx_VZfuzXo4clz_VZfuzUdbbW_wBf-vsOrtlX6PV_cknsowPOZsegVBX0KxXqCNyFYfWO2KmTrNk4wHc-oUza9tGvop2DlUz-b3921ehSZ5JjuzsYuUYZ2HjjFOvkUfi1NBrFkrFgsoJ6-b_nQ_EFmnVZfs1GGROQ8-RR_wB73178ii_ve-o_6SWX6Mv2al5pBFA0hBIUZwKNNE5CPyKL0--j5HF4H31HS8SWkTlGimyOuw-NcfSi0_Uz-4UwSIuiUS1jOcg7EjrXXySL9E--o6PXoDgCKTzhz9R0NKfPUZ6QP7xRxYuh8LSL9H8aPksX6H41HjXIz0gf7QoOtr-ob7VMEibokfk0X6ArqOCKORW7JWAOSp6H0V2zYiL46LzY9lRA1xT0tzt_e_yquDGrMmMnFpriaLZaTpV1bJNFaxlWHfnY-B3pabRdNijLG0jwPAZNUPTeMpNLSYpZGdGGey7Tl38QcUzv_KxJdAQ22kdnJ1BafIB7iRy7-qvL7XsNShNpcOR67Y9sjtFPE-K4i3G-paRooXlK_KCfNjRlLE-BAyD6qheF9e1ee5RJdHsWRpChjuAUcbZ7s4wPZVDi1eW916XUbiMzXaSnLvtvupIx0_hV00vjVNPnimGlLKyqAeec-dgAZO3oJ9ZrFUJcErs2U8TuX6LWbFFQ3nD4jzzZMbq4ABAzvjqSKfX6aXqMdrBZRRrIbuJZY-z5HA3OCPA47tjWbNx5I2z6dEw88ENKcFWzt06b_gKbz8YzT2UssFokF1bxKqzI5LYZwv4Z_dVdxNZtF8ZM8YHTmlj0vSIAxldknuh0PIMsqk9RsRnpsQO-o-30G5j1-xS2a1hETurycxXHnAAHA2IGKuHAuj_OdvY6vLBHEGt2RUA2H5Rx_wC3aovW_KVd6Lrd_p8OlWbpaztGsjO-WwcZOO-rUlJvDFXsSsmpMtzWQMk5F9AUZ1aMGVxyqGBI6dcZXwxiuWsVHZn5wgGGYsokf9Ild8dMHBHoFUWXyx6oiMx02xVQM7vIf40kvlk1iRQyWFhyncbyfGuv8bso1VZpWv8A60toX60sbeNwZ9Qt1JRFkdS7FyC2c5HeCBnuxSIs7WK1ijXV7VWXAKiR1GA5Jxgd64HTbFUf-l_XM_1LT_c_81H9Luun_wAJp_2X_mqbV9ET0l3vd-n2NG5bNrKCGLVlDx3HalkVzzL-j03223pm2mxvblV1BO087H5KUjBfmB2HXHm-FUX-lzXf7LYfZf8Amr0eVrXT1tbA_wCF_wCalq-iKxruPB9_L7Gix2ltDfRXK3DyKiy5Q27jdvqgYXu6b1L9iq3FmOUD8m22O_C1lNr5U9bubqGBLOw5pXVBs_UnH6VajrN8unNDNKC-Ek81e_6tce1Kpk5kKeLwHvIqtjlGcZwBvVK4o4j1bTrg21naW3yhwTCBmQyAdSOmMdTnpg-2nzeVS9uXXlt7FXxhVy-d85BGeowPfUdb-UG_t7y4u2sNPaeReQuQ3mr4DfbPf_lVI7PNu1irmnwNS4V1DU5JGtdbWNpCiyRTRrgMDkEH0gjr6RVmKVh8XlQ1LnRo7Sw5kBA81ujb-PqpV_K3rCOiPa2AZun5N_5qt0So8wqiNp5D6aCm1Y3_AEq63n-qaf8AYb-ag-VXWs72un_Yb-ap6FV0J3iNiK-k1yy-usf_AKVNZPW0sPst8asHk-411TinVpoJILSO1tx-VZFbmyRsBk1D2SpFXaGNGgcm1eBBkeum3EF3Jp2h6hexBTJbwPIoboSBtmsiHlT1v-zWH2G_mqlPZ51FeIc0uJXSNjXWGFsSpI8_G3qoI2NPNImtINSsDqUZlsRcI9woGSUB3Hp2r3jPApXdjzSnDmUSNzYAwM5xSl5CHYchUY8a0rV-11XTtRm0q_0LUNHBDKsFssU9nHzdcYzgDYn0GkOKOII-F9e-ZbGys_kMCoGjltw5uMgEszdd842rNVL8FmdEtnUM28vp_fcZkLR8jJXGau99IRYzbjAQ704kv_mLhLT9U0eztDfaldTK0jxdoIFQnEaBs49u-1Xbh4QanJoGrNbQwz30MyyxKo5HZQfOA9NRKpbNomGzYmop55ev_pg18c3LknGcfupuCP0h76vnACRSXnEzSKrJHpE-eZc8p239BqY0bifUJOANX1F_krXVrLBHE3ySMcoYgEEY3qZVGnZIpCgpJNu3Hlp4lAtSokTmP-pXvpwz_lCM4UjA91aBw5rdpfaVELXUdJsdfmmZrn5bbLy3GfqhWxhQNhgVXb3S5J-PIdM1aOG0kuLxEkjgAVQrYPmeAI6euqOWJ2eRMqNopxd7lcjmTIUkFvQRn3UsHUnG9XmHU7m_4h1HQbHTdEjs4He2jsrlUiJxlQVb6zPtzbf50y1-BE4H4YZVTmD3KO6gbkP3nv6GrKfBEujk2nw7u9L_AKeSyEQOOYYCEfhVRSaPOCy856jIzmtotoU-UaSrRpk6PIxBUbnHWqhdazc6HwjwibGO1xcQymYS26P2nK2wJIz3npURnd2S95_YtLZ1FYpPL6fT7lJ5wOu1VziCJLSVb1GCQ82ZTkAKfX3A1vtrp9vY6rrcth8msGm0yG5Xto-dLaRic-bjpt09NV9NSsDrsY4j1LTdQgS3kENxHZARQysQAZEwObGM7jFY14LaIOLR00E9lmpX45d3H6_8MJF7ZRSSKtxE4eTtFIdcnONutOzOvXlfHsqd8renajDo2kXms_MmrQvdmG31nS7eOIliQRHKFAx5qtgYIzmoaQQRTQQSSKks2ezQndsDJx6hXzNzu1Y-_TmpLIQM64zyv-FOdDvLa4tNYMbo3Y2vO2GBwA4qJ1K9tI48pdjaRAQq5GM7knG4xUPwLcxW83E8cjKrXNpIkXMcc5yTgeO29Z1o_hSehfFZpI-ouA7l04M0U27_AJI2ysuN85JP8f8A71rFuNLlRxbrHOHZvlT5IxvvV14e4sj0fgHh-yhhL3_zRDLGZcCHJUbMc5-rk47wMZ3ArO767fVru51GeNO2uJnZ1gJkUNk5wdzjbO9FGMW7F7SsmyNuNQs0YpO4UkfVZgNjXVveWknmQOH5R0RgcVUuNYwNQQqRyskbA-IINSvBWnvDPKtzGyFoBKObbKkjB9Rwa33aw3MVUbdrZE8JY847OT8KUEseNkk9WBTC6uZrfULaEm3YNgyKoZm37l8cDv7_AG0tLJPLDZ3NkiC0uQxV5EOfNPnHbbC7ZHprPvNlFt2SHQkj_Qf8KGuIlByknuFLWGg6ukt1LcM1zbLGkiuqBUIYcwKfpLgjPga7-abm7RLizkEqu_ZR20SqxkYHz8nqMAg4o8syypycsNszvQLpPnywKK4cToQSBscitt4waa508KJCG5ZQW_RGF7vH1-v0VieiQTDW9ONtCsg-UIWLPyALkZOa3fh670fXrWY2uv2k3yRiGMLRvyhgCCQNwc7Z8R66h0N6voZOTjy4ny2SZGMzOJT2m5wDj0bd-1TEzmaAiIMCBjJOfdWtQ8D-T62u302z1DmuWbtHhWRy6jfzsFsged0xU5Y-Svhi6ccl9cBCOYguynl3HePHNRuLXtIYJpXlFrwPnSWzljIkjuCxxnlK4x6OtP7O7hRUF3JGzgZB5h_Gr35SZuE-Btdg05NBvdSRYleeeW-aFSWXmAjCgnp1z6qwfVLqK_vVkt4RDCCVjT9FeY4HsBqYbOsWRSUsGdjTEvLZ1DJzkHvABFBuYjjaT7NVu51FtM0qEQW5klYPIWI81F5yMnxqQ4avhq9kzvGEmjblcDocjIIq8o2bRZO6TH8t9bxjLllB_SwP41o3kivMI5snASWVi_KASxVQB6-vSsi4wspZrBI7eF5ZWbZEGT3VJ-RLip9H4lttBvIV-T3Urxrtho5HH52eoOMYqHFOJF3fuPoTie7kfhrVBNIWiNs_N03HKfR_19GK-fxcw-EnuFbzxS2OGtVJzvbSb794x8P442r5l13ULmxvBGojijycNy8xOOvt9FVhBLJZFrvizSIxGxb6x26D-Nd6ffPpt_DeWp_LwuHTnUMAR6Dsa7uxGq80KlQ3XLZyfGuNBa0-d7c6nymzBbtObpjlOPxxXocnG545ZSSRYNR41vL7TLy0h0_S7L5WojnktLcJJMM7gnPSnNtxhqNrDaROmn3t7bgJb3U9qHmiHcAx8O7OaNFh4cngilLSCeC2QmNiObm8_c4GGbPKCPDHrHfE_wAym11FrWS3e6kIMJDMWB7YkhV5cBeTG-c9RWNo_lsdKx2c8YxtuKNT0oXMcgtb-C6ft5oLyISIZD1cdMH1VIni3ULm2i1V7iKCW2BWJIYgqxkEYVRnGDml9QTh_Vb_AJYZIFSPtZWkgOOWJAhHNgDqA6jOWywPSoizfRjoax3xtUBEva8ilrhWLjsypxuAvjtgHvxVvl42M3j_AC4svqcajxrfahZXVpHa6dYrdb3L2tuI2n78Maa2OqTRaDfaVFGjQXciSSs2eYFMEY8KcXcHC8U8rW80jiHlZU7Uss2SV5QcZGPNY-jI9FONXj0OPT7mayuozKbzKxW8jEdiXbKjmHULykevHdT5VwRa0p5ylw_0e6VxdLpmm21hNp2mXsEBPZtdWwcpk5JBGO_feo_iHUZtS1V9SvGZ7xwsnOjcmMZxjHTGBipBxolxeyG6n09LcN-Q-TF4iIi4yXPKcuF6Kepzk9KmY4-H7q3gBuYUj7IebGTGxJSMeccbdJT6_XVU0nexNSMpK2LIa2fG2uLML9bHTJLqJAWuzagzuvTzmB6ekCktH4gvtNtHs5IbK6tWkMxt7qHtFRyckrvt1qT0nTtIt7X5S0kgjljAgaSY80nmszBlxhQCAMgnY92aY6ZLoIhnNxG8yC7zC3V2jUbKx281tgT16HFTaNskVbq5XkL6pxRqlrqyXxlikeWB4irphVUgABQOlNtM4pvbfTbCyfTtLuEsxi3mng7R0B3JGT1z-6ltXi4bmad-cNyiRo0ilZS7DtCFI5cKu0eDk5z7vbW34YmljMlyY4AeUlpWJcEJ5wOOoJfb-7T5eaJ-flNeYytOLdUt9V1K5uhbXr3yrHItzFzKyjcAKCMD0Uu3FlwNSklsdN0mPlgKvGlqOWYErkMCd-lUWSQrdPvnDEfwqRsmbn5gPrJhvVkVfBHQx307ZM6451CfirTYNNktrWwtrWY3MNvZJ2KduEOGbrnrWPPqbXCG11mUtdxSGHn5clF5sNgnbOM9RWwOvNKwPQkgejas18o2hkSS6naLkr5s4HeOgf4-yuXadnTWKPI-n8N-IShPBUfH3YgZby0hjli02Wfs4uZI-YkFkJwScd5Hs3NJ2RsxBJeT3RE8JLC3C7MTkDBz0AP4VXmPISSTnOa7kB7P2VxSjiWE-3Gok22i7W1wlxplpHLluaBU5m3wFPIgHhgUrZNe8PSSmYMqXUYeJRkCQHmAK777jHsqsPcCTT7CKCRu0QMrrjGPOJGD37GkLq8uZ5E55XzGAMjY_wDWolG_0NKdSMIttfNyJLX5WuZEEpMskaRI55eXB5ScenA7_QaX1PiJrie2IiWJRDHE6DJBCDGRnpnrivdGsVv7W4vnkLgMVkVRuh5W3J9uRSWpaajkrGxX5PbvISRkkDJ39_WuulRlUpSq5Wj7yOaTwywrmWTymX4kv7IwGPDpvyAAdd-lTPkou7dobmyl5vlEji5wSRGqIhUk93-s8PzRWXQydo1p2mcGVYyRuevp9dTujXZ0rUpFVVdJIzGSfrKC64O3f5tYT42LQdszeNXvZtQks0skEVgWVHZk5Wn3P1R3LvnPfSPC86ycLxTSDldRyRRqAowpKn343z1rNNP1bULnVVWN5GKSNypPK7o3KCdwTjBOKb2PGd3pemnTpbFXaEvlu3ZSMMcjA2765K8JO2HiddKsk3J5Fwgii1bWNQScRSXUljHJaq79mDKzEH0DCqdzsKZeQObQNM471WLUZZGW6tOzt4o9xswd1JzvgLt7aqfFGoz2s8sqxvE_yBbVGYkcysqhiPHq49tRPktDnyg6EyXPyVo7gy9vyFxGFRmyVG5G1XpweFcnYSqqLzV8yyppzcL-VKyuRLNEllqS3DPOvOXh5_rA9Xyuc5_fX1iuqaZOkdzLPYtalC4eJGAK4O423r5L1nU7jWtVn1u6leWW4YBTJjqNtsdwAAHtrVPJQuo_R6_Md9psFp8qZEjvIgxDFUJK5U7bscZwSPbU041JLCmr96N9oo0qaVR3X0ZAeV230GTjGYxa5KIreBJL6Iwc7ZOyxo5_PKnoRgCsx0jhG84iW_vOH7OWSz05RLcFQCEGchRkgs2ATgdwzU55fnSLyi6vHajs4nMHMqjlVisK74G35341pn_49TW8Pkd1t0wJ0u52mPQn8kvL-FaU6eH5jl2iu5R3bV783x7vTiZ5BompalwtPdaTZmZtOUOzfnYZj3Yz03PoFecBcM8Uaw_a6ZY80LkNLdT_AJK3bbGAx67bbAmns3E02jaZeaba3Dq99MpmZThhCg33Hj09VX2PyqWt7qNrGbvkhAJKkcq4A2HQYrPCpSci0J7mkrpO97X8DPuLYLjTIJhfWgF3A6xiDl7TmydyDtjGAQR1BNVjR9Zli4gstSCQfKLOcyorgMHIGNz3jGf31O-UTieXUOJXubSY9lHHlBGcEZUqd_aR7aoUakPbRq3Z87BG37qOmnIinWVOF2r3vkfR1vxXFxLwRqc8aRrcJDiSBHZihJA84kDGe7qCOuTWdG2vr-9e3ItvkiKJJDJIA0aEhSd_zdsEjoKS4IaOFOK0WfkEdhbjlwCTiQAtv393f9aqhqGoC-tPPVhNPMZDJzkfk8YCYG2M5Pp2qsqafyihOzctDU5yPkFueUAlT53j3e8VHDrU5NiXSkDKPybEAjr1NQjqV3IxXoUzw7Hmku8d6BGMkjlI9FezA9q3MSSCetJaY_JqFuxOPOp7qUYS5Y9zb1DWZKeQy5cEnB6ZG2a8nRyrHcY6g7V7IeoGelcczMSB1bbA76nkUfEb06iBazk_usD-8UlLC6vyhWO2elObdSlrcrJG-SoI28CDvUMtB2EAfNqc0lVltwMA8oA3HpNQQqy6NEqWSMFkLPuTnapnDDBNkuWJ2Q30JUt9VlWUYblZRt6aW06ILaYGCST1HSm0ySw3zzwqS3Mdj4Y2p7pEcsUcnbdWbIxUPKNyi4je6MKXDEkkHqCceyutNVGiKqQeQkZ6g1Fa4T84zD83IOPYKlOHCgspMr53abkDrsKP8twuNiBuh_2qXC8o5zt7amdLj5xGSDvF_GorUTm_uMZx2hIHtqwaR2fzfAxLBsEbes0lkiVxOms4gC_Jhhv176htatY0uHUrzJIN1O4I6EVZCYe_f15NQPEJXtoTGMAqQdsd9RB5hqyMZ4i0O20jULpZYZJLaWEtasrY5XyNm9X7iKhLmFV5gCcBc1s95o8Wu2U9lKwRmTmRz-a3jWP6vbT2V3dQXKhZIcoVHiO-uapRjGTep6DYtqdaCT4r1J3iLTLDT7uA2hdO0tLeWNF85csnn5J3znfbxqtzP2xAYnlydx12q7cTRWM-hadeRaslxexW0UZgFv2Z5QoHXvI6ZNVrhqztLzVIoNTkEEEgfLlyvKcEg5ANcsMLp38zuk3iLBwrZxQ8Aa1dyT_lJwTFGB05fNOTSFtHHcadrc8rsrw6dzIB-cSwG9XbTNG4ej0dtNGvPFZyhiQHGDk7nfc7jwpxp3CnCkUUsPzzdXfbr2ZVOQEjfYeb6atDaowozp85MOneSZknDqBta0pXR5ENyGZUAJI9u3QVK6rHBHfag6s5DTBUBwG-tsNhjrg7bVsdp5OeFIDEwjujyDKhrvGD47VxP5OeHZec9rcmVyDztKp6d2MVyOvBu5pu3axR-FVgTV5TffKGLFgiwrk5LKN6q17CjX2o3E0oKrJygk9VZ2yfcoraU4C0k7GeUFmZiYjync5wNzsPHrTFvJZohgkiS6uwSMDJQhT6up99U3sW7lsDSKz5R9NtpbC1jsnMtzIQIi7ALyDPNv0_R99VHyfRx2XE-oSXoYCy068kPKfN5uyKgHxB5u7vx3ZrTtQ4CtRLNJbahds9jCJEjdVbncg7E5zjze7xqraLw7LxBPqqxTTB5LUKOaTGAW-r06bUU_kLWWNDOwtVl0mwVcgCNNj4kA1cOBNMku7jTVe6ZIb27XIjJOxbl8fR-NZhca3daLNc6bf23LPZhoPMO_MNsn2d9ahoeiaxaaHa27wXR5YhjllGxO-3vpKVuB2bRXjVgorxM88sV6b3yn8SMQFAvXQAdBygL_8AGtq8m-mPovkOt4k5EvNcke6JxuI281Sf8K_jWP6_BcWmuzwXSnOfO7UZbJGc5q-cL6_qvFXJ8vsTLb6XCllaomFVF6knGxOAo9XrrepO0Lo-ao3k7sz3j63ks-IJYI3yUiVWOOnNv3esVVyzo_M3QecdsZrW9d0a0ubqU6lp6R3BmPRjnk7vOHoFRdrw3oVxxBbaeqTid3RgiTAgqMs_ODvjAAGO871pFxjTUmZyVWU3Fciqa5Ytpcem2sqkXE1us0q9Mcxzj3U1MceI2i588wLkDIznAB7hVt8runTHia3eOGV4zapuoOM8zDFVO6tprRIu0huYy_n4dcA8u3TG9ZU3eNzWbd0tC4cM2sD8J8cao6c_KsVqh6Y3LN-5elUJCHdl6L2Y5c9wGB_CtT07Qr3-h-5SBTHeXcT3LpICuRzZ39PIoxWOxXJKiIYkY5A5ASd_RVacsTbLNuMcJ9ABi2kNkYCnGfE5_wA6iJWLAeAqwpZoNPMb8zE-f6jioeyS2kvIkvpngtSwEkkac7KMdQO-vvQs0zxbvdIaxECRCegYGrBf2xnRmVGL7cngQTUJrSW0F-8ekTPd2gxyyzJ2THYZ8315q68Om3vbWNtcleyREBjMC9tzgDv6YqrmvaLqk9V5or9tp7i3mlmwFHmY780vp0McdwxRQMDG9PQM6ZMc-b2uB6ab2a5ViatL8pmuIhIAEfHTevbkBdJkx1YgH311cKAWUdOgry7B-QN0xmrxV5R-o4JkAKs2kyf_AK-H0Aj8arI6VOaVMi2IBKghj1NW2lfIKfEeSkc7E9KVj-p371GXV5hwEiLYO2DgGnEN0zpgRSA-G1c83eKRaPEhdWOdQnOc-dj8Kk-HWAtpgSfr_wAKbXVjLPO8o25jnBpxY2VxbqwEqDmOSAKSknGwSd7kXqRzqE__APZqZ0uZE0-IM6g77H1mvH0-GSQvKGdz1IbFOI7SCIAJH-NUlNNWLKLue_K1JwgLeqmt9ayXzIQOzC561IBR6R7a6AHf--qqVs0Ww3IqHSXjYN246Y2Wq_xTwHFrkiypeC3mA5Wbs-bmHcDv3eNXUgZ6t76MeJI9tVm3NNXNKM3Rmpx5FRsuA7KHTEtLya4ucKF51YKRjwH_AFpjF5NUtbiOa1vlVg0mTKA45G-qMHvA6nv9FXpIQXJMsoJ7iwx-6k_k0bPlbh3K7FeUHFebqVatGTpyZ7Kju68FUgsmRFpwfaIw7YpcSAfWY4HuFS9tpFjaZjXTdP36lVwffSxtk6hnAx3gVwsKdqWSRxv0KED31i60nzNt0lyHggt1GVsbM7Y83IrhLe1lXkaygJB3K5FJ9k2AEkPXJ_6V4yyYbLjGOoBU1XfMtujuSytRGyxWvL6Q38RSMdpCif1dlOSWPaZrlZQoGZl5sdOQ12fPQHtRjG5A3FHUYwCBtLVpGIEqc_KCWbGcfwqq8PRLJxHeoryoiQkZQ9fP6HxHwqx3_bKoW3JZmG-2CPDrVVjsdTsJrhrNorQTBe0eQ4ZQM48c9TW1OpaMlfiZzp5plA8qdmtnxfddmzMs0aTnn6gkYI_Ctj0i6ivre2iSe-5zErsefGDgHGfCsu4o4bmnu47mS7VslUkMi42zuRjr1NWOC81RvyWmwLHARgdipUYHQsfV6a1qNSgknwM1Fxk7oQ8pFqtvqySF5SJI1LO2-CDjr7qf-TF5ms9SjWe4gVZ1cBWGCCuN_TtUVxBZ3K2cUmoPGGZiqrz5J2zk1xwvq8OlW1yIE5g8qjZwB5q9c9-5PSt5O-zKzuZcKuaLdxA_5fn7VpGCgln6jHspvoduDxM08UphnNqVLoN2XI2Jpj8tGuxzvcAJDDHzOqSbN6WPf06U70l1j1FGEIBMRLP0LZx1zvgenv6Vtd9Fu9CmW9yJvXo5WtYzdT9sBkA4xjv6-mqhxfYxam2nx7tcO4RQGxlSRkGrNqN5HcoII7iMSE5UBuY-mokZXU7UxxiQJIoZmGAu_j66nZZX2d-IqxtVyLPcnU4tNnEkwMKRleVcAcoGP3VV9DuIQssapFGVbzSiKu3ox3VZJrrzZEnXAZSuCdqqMkMSXkckKlGAIYeOf-lY7BJtMvXik0XUsvZnz-i9_qqtsPreuvpo8BcNEEHS0wf_ADX_AJqQPk44UP8AshPvpP5q-xT2uEb3TPNy-F1XzXr9j5mPWrXYyH5jhOD1Kk-gE1tn9GvCX7HT76T-alR5PeFxF2Y0pez68vbSY_8AdUvbIaMdVVdV6_Ywx5R8l7JiyqPPEmMrn2U0tdQYKV7A8oPUNj8DW_DyecLrsNKUDpjtpMf-6vf6PuF_2Sn3sn81Ue1xasyeq6uq9fsfPdxNPLIeUoqZz03r3tJ2jMcknOh7ioGK-gx5P-GB_spPvZP5q9_o_wCGP2Un3sn81T0uPeOq6uq9fsfOgtU8CfbS8No4-rGVB8a-hRwFw0OmlqPVNJ_NXv0C4azn5rQ-uVz_APKj2xPUL4XU1XvwMDS0JG5H2qWWBRjKjat5HA_Dg6aZGP8A_R_jR9B-Hf2an3j_ABqnSYlurKmq9-BhXKPzVAroAjptW5jgfh0dNMT7x_jR9B-Hf2an3r_Gq9IjoT1bV1XvwMNwcdcV7hun44rcfoRw7-zU-9f40Dgjh0dNNT7x_jTfx0HV1XVe_Aw0Lg70MN-oFbn9CeHv2an3j_GuTwNw6f8AZq_ev_NTfxHV1XVe_AwvDHvGK7UN4j2VuX0G4c_Zifev8aPoPw7-zU-9f406RHQdW1dV78DDJMspHMfYRTYKxJDxzjB2ZDsfdW-DgbhwdNMT7x_jXX0K4fxgacv3r_GuLbKca6TjxR9H4fCrssmpO8WYIEA-v2nXoXPxr028kgBV5xjwPUVvEnBHDsi8r6YhH_qP8aF4H4dXGNNTb_zX_mr5_Q59x9bpMTDIIZIyQZ2YHubc11Ks7qOSZww_u4B_Ctz-hXD_AOzU-8f4179DOH_2cn3j_Go6FPuJ6THvMEIuFK5RyT1yAc_jtXsh5wY3dwevm4BHqrejwXw-wwdNQj_1H-NH0M0D9nr94_xp0Kfd78B0qPeYM8XMvKschONiR_Gm4jik_Juko2wVPT219A_QzQP2cn3j_GvPoVw8Tk6bGT03d_jToVTVe_APaYaHznLp9rBNzQWKF9zlYwT-PSlwsaAvyyEnfJJH8K-hPoTw9-zU-8f41yeBeHD_ALMT2SuP_lTodR80R0iGhiNtLoV1aG11SznyRl25jJ2m_QZxyDYHb31SDoEIum-So0dpu5VyGYHJz5x6DGO6vqb6D8O_s1T65ZP5q8bgXhthg6Wn3j_GtVQrKOFNWKOrTbxZny5eW9pb88S2vL5nafWY84HiB3emofXdWIdTGCgYAdkqMpPec-PdtX1weAuGioA00LyjlHLNIMDw2am_9GvCPbLKdFhMq9GMkhI_5q6Yqcae7KzlTlJyV1798j5T0eGVbiK5dIosDmIP1vVipLU9Q-S2Jk5olkGHjRW538ckYwMV9PSeTzhd15fmpV9KTSKfeGzSFx5MeELiMxzaQGjO5X5RKAfZzVehenBxlzMajUpJo-TTxRqbsCt5F6miUD8alZ7lZrWKR5Ai8odnGCBtua-lU8kfAqEEcPW5wc7yyH97U9byb8JNGUOjRFCQcdpJ3dPzqihFUm8siZyc-LLdRRRVygUUUUAUUUUAUUUUAUUUUAUUUx1fUBptsk7xl4zKkbkMByBmC8xz3AkZ8Bv3UA-oqnWnH-nTWiXMsNxDCw2yAzc5ZwEwO_EUjeoA94p7acYafOjuwmWNTKzSLGzokSMw7VyB5qnlOM-B8KAslFVtuM9KWRYnF6s5YK0RtJOdCzKqhhjbmLpjPXmHpwrpnFuk6nex2tnO7zSJzAGJhvyhihyNmCkEigJ-iq5ovF1hqgsF7O5t5rtFZUmiICsyllRmGwYqCwGemPEU5TX4lVWuYZIVkBMW4btMNy4wOh6VZRcuBSdSMPzMmqKin1y15I2hEs3O6phEOQGKgE57vOFE2uWyWks8aySiKVYnVV87ziBkeIwc1O7loV39PUlaKh4eILOXmPniPtuyR8ZD7Lhhj80lgAa9t9ftJLeGVxLGZCgKFDlSwBHs3G9N3LQjf0-0S9FRR1y07WNV53DrkcqEkk8uFAx1w2_hSVlxBb3Cc0kcsIOCCVJH1VPXHcG39Apu5cbE7-ne2ImqKipNctRIscfO8jFeUYIBBcLkH0cwPqom1y2S0mnjWWUQyrG6qvnecQMjxGDmm7loN9T1JWioeDiGzlMmO0CK5VXC8wZQFPabdF84b0ouuWbMgzKA4DAtEwGDzY39PK2PVTdy0Cr03-pEpRTexu4r23E0BJQkruMEEHBBFOKq1bJmiakroKKKKgkKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKSvLaG8tZra6jSW3mQxyRuMhlIwQR4EUrRQEVJw9pMlvLA2n24iklEzKqYy4UKG27-UAeravDw7pBuO2On25k52cnl6lvrZHQg-HTO_WpaigIq24d0m2VRBYQJylSDjfIcON_QyqfYPCm3YaDod2JhHbWlwYwg5QQeXOBsPVjPoqepGW1glfnlhid8cvMyAnHhQEDaWvDFjcwz2y2EM8KZjIYAop5jsM-BbHoyBtTkpoccM2fkyoSOfJ6HOR6t_xqQOm2OWPyO2y3U9kN9sV21natzc1vC3PgNlAc48alNrgVcYy4oYyfNJ7YN2H-iWR9vzIzsfYaRhn0G3TliltEUsjYDd4Pmn2fhUqlpborqsKAPnmHLnOf-tVvi24t9MtH7O1hQKvMCLcOWdshVAx3kbnBwAKpVrbuN2TCjGckksyRlbQpWEkj2RblEg84A42AOP8I91eyxaJ2ipL8kV0AwGYAgDYezzR7vRTLh57fUFDy2sUglQkSSQKr5VuVlbHgenTv2qdaxtGLFrWAljkkxg5pTrOcbpkSoxTs0iOZtCkCr2lkwdmZSrjck8xII9Izn0V5Muiqk1mZba3ZQUIDBSuUAOM_wBzHsqQk02ydORrWHlxy4CAYHhXp0-zaXtGtIGkxjnMYJ6Y6-ratMUtSHTg-QwtbfRbx2FsttK6gKeU5OABj8Au_oFPoNNs4FKxW8aKWVsAd6nK-7uruGytoJe0hgjjfl5cquNs5-HupxTFLUKnBZpIaSabZyMGe2iLBgwPL3gAfuUbegV4-mWTx8j20TJyhcEbYGcD_mPvp5RUYnqN3HQStbaG1j7O3jCISWIHeT1NK0UVF7lkklZBRRRQkKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKARu7WO6jCTc_KDnzHZDn1qQaZ_Mtn_vH_Ey_zVJUUBG_Mtn_ALx_xMv81ePo8HZ8sLSI2frMxlyPAh87VJ0VWcVNWkSnZ3RFQaJbpCI5GmkIOQRIY8DfYBSMDc7V38y2f-8f8TL_ADVJUUhFQWGPAN4ndkb8y2f-8f8AEy_zU8tLWO1jKQ8_KTnz3Zzn1sSaWoqxAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUmSeY70UUAZPiaMnxNFFAGT4mjJ8TRRQBk-JoyfE0UUAZPiaMnxNFFAAJyNzSlFFAcyEgbVzk-JoooAyfE0ZPiaKKAMnxNGT4miigDJ8TRk-JoooAyfE0ZPiaKKA7XpXp6UUUAkCd9z1r3J8TRRQBk-JoyfE0UUAZPiaMnxNFFAGT4mjJ8TRRQBk-Jr1Sc9aKKA7ooooAooooD_9k=",
+  "height": 179,
+  "mime_type": "image/jpeg",
+  "width": 320
+ }
+}
+";

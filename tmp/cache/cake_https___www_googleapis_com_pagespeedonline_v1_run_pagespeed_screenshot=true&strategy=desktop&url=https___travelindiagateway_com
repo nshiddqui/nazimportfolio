@@ -1,0 +1,1317 @@
+1576084753
+s:51042:"{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "http://travelindiagateway.com/",
+ "responseCode": 200,
+ "title": "Travel India Gateway",
+ "score": 38,
+ "pageStats": {
+  "numberResources": 109,
+  "numberHosts": 13,
+  "totalRequestBytes": "12131",
+  "numberStaticResources": 97,
+  "htmlResponseBytes": "274348",
+  "cssResponseBytes": "1586661",
+  "imageResponseBytes": "1832501",
+  "javascriptResponseBytes": "2193457",
+  "otherResponseBytes": "111677",
+  "numberJsResources": 48,
+  "numberCssResources": 29
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Avoid landing page redirects",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has no redirects. Learn more about avoiding landing page redirects.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Enable compression",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "You have compression enabled. Learn more about enabling compression.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleImpact": 2.836805555555556,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
+      }
+     },
+     {
+      "header": {
+       "format": "Leverage browser caching for the following cacheable resources:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://1.gravatar.com/avatar/7ce72c293864a8f4f9e5186b69bafcda?s=35&d=mm&r=g"
+          },
+          {
+           "type": "DURATION",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://connect.facebook.net/en_US/sdk.js"
+          },
+          {
+           "type": "DURATION",
+           "value": "20 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://apis.google.com/js/api:client.js"
+          },
+          {
+           "type": "DURATION",
+           "value": "30 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://apis.google.com/js/platform.js"
+          },
+          {
+           "type": "DURATION",
+           "value": "30 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAbiWD8crgFpYN8GEeaL6Qjg0lTpFJgmuk"
+          },
+          {
+           "type": "DURATION",
+           "value": "30 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.google-analytics.com/analytics.js"
+          },
+          {
+           "type": "DURATION",
+           "value": "2 hours"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Reduce server response time",
+    "ruleImpact": 58.53,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "In our test, your server responded in $1.",
+       "args": [
+        {
+         "type": "DURATION",
+         "value": "3.2 seconds"
+        }
+       ]
+      }
+     },
+     {
+      "header": {
+       "format": "There are many factors that can slow down your server response time. Please read our recommendations to learn how you can monitor and measure where your server is spending the most time.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/Server"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleImpact": 1.2696,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting CSS code can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify CSS for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "12.4KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "19%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/search_result.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "5.4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "21%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/style.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "2.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "17%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "1.2KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "21%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/checkout.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "924B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "19%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/responsive.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "805B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "15%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/partner_page.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "623B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "19%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/magnific-popup/magnific-popup.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "267B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "14%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/ion.rangeSlider/css/ion.rangeSlider.skinHTML5.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "217B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "26%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/ion.rangeSlider/css/ion.rangeSlider.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "210B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "26%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/flickity.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "178B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "23%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/owlcarousel/assets/owl.carousel.min.css"
+          },
+          {
+           "type": "BYTES",
+           "value": "124B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "12%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleImpact": 0.41750000000000004,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting HTML code, including any inline JavaScript and CSS contained in it, can save many bytes of data and speed up download and parse times."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify HTML for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "4.1KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "13%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/"
+          },
+          {
+           "type": "BYTES",
+           "value": "4.1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "13%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleImpact": 3.7595,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Compacting JavaScript code can save many bytes of data and speed up downloading, parsing, and execution time."
+      }
+     },
+     {
+      "header": {
+       "format": "Minify JavaScript for the following resources to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "value": "36.7KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "34%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/flickity.pkgd.min.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "11.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "43%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/daterangepicker/daterangepicker.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "34%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/wpforms-lite/assets/js/wpforms.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "3.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "33%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/infobox.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "3.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "57%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/markerclusterer.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "3.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "50%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/custom.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "3.4KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "22%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/fotorama/fotorama.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "2.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "16%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/jquery.matchHeight.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "1.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "50%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://connect.facebook.net/en_US/sdk.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "672B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "39%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/contact-form-7/includes/js/scripts.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "653B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "17%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3 reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
+          },
+          {
+           "type": "BYTES",
+           "value": "115B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "12%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+    "ruleImpact": 10.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Your page has $1 blocking script resources and $2 blocking CSS resources. This causes a delay in rendering your page.",
+       "args": [
+        {
+         "type": "INT_LITERAL",
+         "value": "9"
+        },
+        {
+         "type": "INT_LITERAL",
+         "value": "25"
+        }
+       ]
+      }
+     },
+     {
+      "header": {
+       "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "Remove render-blocking JavaScript:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/BlockingJS"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-includes/js/jquery/jquery.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-includes/js/jquery/jquery-migrate.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAbiWD8crgFpYN8GEeaL6Qjg0lTpFJgmuk"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/magnific-popup/jquery.magnific-popup.min.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://apis.google.com/js/api:client.js"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "header": {
+       "format": "Optimize CSS Delivery of the following:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-includes/css/dist/block-library/style.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/woo-gutenberg-products-block/build/style.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/contact-form-7/includes/css/styles.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/bootstrap.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/helpers.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/font-awesome.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/fotorama/fotorama.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/ion.rangeSlider/css/ion.rangeSlider.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/ion.rangeSlider/css/ion.rangeSlider.skinHTML5.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/daterangepicker/daterangepicker.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/sweetalert2.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/select2.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/flickity.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/magnific-popup/magnific-popup.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/js/owlcarousel/assets/owl.carousel.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/style.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/search_result.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/fsafari.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/checkout.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/partner_page.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/themes/traveler/v2/css/responsive.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/uploads/js_composer/js_composer_front_custom.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleImpact": 101.76710000000001,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Properly formatting and compressing images can save many bytes of data."
+      }
+     },
+     {
+      "header": {
+       "format": "Optimize the following images to reduce their size by $2 ($3 reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "value": "993.8KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "value": "86%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/uploads/2019/05/img_hero_6.jpg?id=9563"
+          },
+          {
+           "type": "BYTES",
+           "value": "632.8KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "85%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/uploads/2019/05/image_banner_1.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "230.9KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "89%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/uploads/2019/05/image_banner_2.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "65.7KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "92%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://travelindiagateway.com/wp-content/uploads/2019/05/image_banner_3.jpg"
+          },
+          {
+           "type": "BYTES",
+           "value": "64KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "90%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing $1 could save $2 ($3 reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://1.gravatar.com/avatar/7ce72c293864a8f4f9e5186b69bafcda?s=35&d=mm&r=g"
+          },
+          {
+           "type": "BYTES",
+           "value": "429B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "value": "44%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Prioritize visible content",
+    "ruleImpact": 0.0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "You have the above-the-fold content properly prioritized. Learn more about prioritizing visible content.",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ },
+ "screenshot": {
+  "data": "_9j_4AAQSkZJRgABAQAAAQABAAD_2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj_2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj_wAARCACzAUADASIAAhEBAxEB_8QAHQAAAQQDAQEAAAAAAAAAAAAABgADBAUBAgcICf_EAFIQAAIBAwIDBAQJBgkKBgMBAAECAwAEEQUhBhIxE0FRYQcUInEyVIGRlKHB0eEVFhczk7EjNTZCUlV0krIkJURTYoSi0vDxNFZjZHOCJkNFcv_EABsBAAIDAQEBAAAAAAAAAAAAAAABAgMEBQYH_8QAPREAAgECBAIEDAUEAQUAAAAAAAECAxEEEiFREzEFQZHRBhQVFiIyM2FxgaHwNFKxweEHQnKC4iOSk6Lx_9oADAMBAAIRAxEAPwDhdSYbZH0-5uWuER4njRYSPak5ubJHkOXf3irAaID_APvP9z8acXQAf9IP9z8a6_Dkc7jQ3IF3prW-mWl76zayJcD9UkgMiHf4S93TrTFnb-tXSwCWGHmz7czcqjAzufkq5HDgP-kn-5-NbDhoH_Sj_c_Glw5Bxobm0PCjyQtL-V9HWMFVDG42LEZx02-3BxTEfDcjqGOq6MoK83tXgz7sYzT44XU_6Uf2f41sOFh8bP7P8aWSRLiwG7fhO4uOzEGpaQ7uC3KLsZAB6nbw39wPgabfhqRVU_lXRmBAOBeDI8sYqT-ain_Sz-z_ABpfmovxs_s_xpZJBxIENuHJkklSTUNJQxkgk3QwcY6YG_WqeaPspnjLI5RivMhypx3g94ol_NNfjZ_Z_jS_NRfjh_Z_jTysOJEF6VFP5pj4437P8ayOESel0_7L8aMrDPEFaVFJ4T5fhXbD3xfjUy64HSCASDUWY5AI7HHX5aT00GpJptAVSorbhBlQOblwh6Hstj9da_moPjh_Z_jTysWeKBalRSeFFCkm8Owz-r_Gqq00yOaRRLO6IR8IJzH3YzVc5qn6xZTi6nqlXSoksuE7ueV-2cQRA4UsMsR44BwPnrS84dSBiIrtpcDqI8ZPlvS4sUr3FbWwPUqtRpP_AKxH_wBas9H4VXUbbtfXGj2Bx2YPXyzkfLUVXpvrLXQmuaBelRseBlz_ABg37H8aX5jL_WDfsvxp8aG4uFPYCaVG6cCozqp1FhnbPY_jWX4FjRSz6kwA65hH30caG4uHLYB6VE_5pTvPywPJLFyhjIECjz3JxW83B1wiCSKV5FJAKhPaGeu2cbEEUcaG4cOWwOWUK3E_ZvKsQ5WbmY4GQCQKuG0C1AT_AD9ppJRnLBjy7BcKO_PtHrjp76sY-B7h5UDz9jG3-sUFvmB-2pTcAgBj-UW2Gf1PX66OLHcOHLYoodBtpIWk_L2mLguArMwJ5end391Zi0C2khRzr2mIWQPysx2PLnlPn3e-rb8yF_rBv2X41n8x1_rBv2X41HjQ3HwpbAUPgBvqq7tOHzc2rXA1XS4o0UO4kmIZcjYEAHfO3vq6PA6j_wDoN-y_Go0XCVtLIUXUm7QZ9kw4P76brw3BUZ7Aoy4LDIPKcZHQ1c2eg-taX66mqadGFQtJFLKVdN8AEYPXuq3PBajb1584z-qH30hwWhAPrzA-BhG310uPDcfBnsDup6cLGK2kF5aXInHMBC_MU_8A9DupvTbNLy87CW8t7ReVm7WckLkdBt3mpnEGiPpEMbrIZ-duUcq4ofW4ZpAnZ4YnGCamqkWrpkXTknZotNStI7O4aOK8t7tQcB4ScHYHO46b4-Q1EqUdOvTEJIrSaWMjPMq5FPW2j3stxGkkJhicgCWTYfN1pcaCXMfBm3yCZFp9FrCLT6LW9s5NjCrUxLR2GzR9M_CplVp1V8qFJLmiVtjLwmNypIJHeOlb28PbTRxBlTnYLzN0GTjJ8qwBWwWoN35E0i-j4UvHDEXVgFVC_MZ8Dbu6dT3eNVV1YS20lyjtEfV5Oycq4OT5DqR51HCDwHzVkKO6oK-5OyHtOspb-7W3hMauwY5kcKuwJ6n3Y95FWqcM3LllF1YqykAhpSvdnO43GPDw2ql5Qe6lyjwHzUncaS2Lqbh_ULSwkura9sNkL7PzHCgEjBHXeqWeG4xG17P27OvMpDDAB8h0-Xesco8B81Z5aSir3Y3J2yos9G0afU7aV45rQRRsEZJ5uU5PQqOvzVf6jwreS2fJ61p_wlIzPjHXqcbdO-gp1GDt3VaXpYWcmRGw9nAwCaqqXUk0W0rOLTLC84fvYooIJ7uyBkZlB7YkeyObc42yOlaJwjeshb1rTwAQADPgnPgMZ8j4GqW7ChYUA3RMHamAo_oj5qdC-S6Yq9s9mjN3E8WnPcHl5WVguHHNkDw6j5qxwhwzJc87ma3SZFVuW4lCYycbZ6nv91Q9ZuZbSwaaCORyp9rkxkDx-fFAGoa9e3JIUiJcg7bsCPM1XXWaSuTouSi1HrOx3ug3Tw3Ag1DTBHE3LJILjOdwCBgbnfcDfG_eKqtV4Vu7ex7aW708RqCcLcczHCFsYAz3Ee_auTx3dxaTB4ZGDEAkHcH3ir6y1yCdR63CqMi523DeGO_NZpp5WThTaqJlneQdnFFICCki8wwwbbzA3G-etGfAukT3-hvcQvCqxCNSJHClsrnKnqR7-lALXjXxYRwyRxqDuEx-NFHClzbzWjpEytJGVRwV5WBAx7QPft1rPGLXM6U5JrQLdU0qbTo43mlgdZGKgRvkjHiO6q-sEAdwHyU328RYqJBkHHy1JsrSbHQfnpjUUaSRWMhWB1JZfMdQPPqadHWg3jTXri0k9QiPIGAd3X4QHdg91NLNoJ6ahBeXqafG8UF5EsaNkiQqSfEHrjPUHFO6brFteKbX1yMTHOCjBWPuFc70XSZ9XDESpDFnGcZLU_qvDt9oydsWW4thuSnVfPFT0va5G0rXsdPzyzQw9oZGRCzM2MnpjNPI2WA-Sg7hO-N9YtcrNJ20QZZujM3Qgge79xoptZX5JzLgmJioIGzeGPnqKdnZitpoNA7b1spBHnWmR3VG1O5FnptxP0Koce87CoFtiFb8Q2ctzJDKxhKsVVm-C2D491WXJEzc6BcjvU1zE9POpVhql5pxPq0p5Cd0bdTVrp7EVM6KdjW8ao8ftbHmxnO9DOl8WWV7hLg-rTHb2z7J9xohV8qChBUkEEbiqZJx5k01JaA1x6rwWlq7HMAlIc4zynHsk0L6Xp632oW8PMCzNymQeGMnHngUecRWY1XSJ7V3EJJDCQnYEeNACySWUowxjniOOZG3Vh4EVZTehGV76hRfQXGl3dmmmO1vHOSnZTTCXlYAb83Kuxz0xsaor6-1m9vz6st0xGwDR7-e3dUC9v7m95DPcyylPg87E491W2navbSAflCS7huQAvbRMfb94HfRa2th3vpcIlWnkWki08q12mzz6RhRTiisqN6MbXgq7uxw9LZ21_PaahGj3E0cXMsBMhU7gY2AzvVcppcy2MG-QHha3Aoi4j0WLS7S2ZIjytd3UHbmbmaVYpAoymMKQPAnOe6rOTQ-Hzp2kXVvLq5OpXLQRrL2QC8rqrFseTbYqPEXMmoMCwKWKLNd4PuLO51JrCW3uYLS57Ewxzh541Z-WMuoHU7DbvPdUe84SvraOQ9vYTvBKkNzHBcB3t2ZuUdoMbe1tkZwaM6fWPIwcxSxRTc8F6ha3c8Fxc6bH6upa4ka6HJAOblXnONix6DGT4VqnDDwLqwv3GbbTvXreS3cPHMC6qCGxuu58DkUs6DI9gXxT1tD20yx5xnvrQrvW8crQOJEGSpyR4jvpyemgRSvqXK2VsBy9mrHG-dzVfeBXhuFjX2gRkAHpkVblsx88YzkZHnUSMKJGYQMjHqxWsbm00zYoJporRatcvcMh_V9P9qoYFEcsyw2zvthRQ1MrvbyCIgSMpCk9xxV-HbUbGfE2cr9YKcT65zTNY2jAxjIlcHqfAY8KFZ1DBcAcxPy1tJDNBePb3EZSVD7QJqXYp2l9BFyjDSKOnnVNSV5XNNGNoWIGoRsl48feuBUnQbRLzUoo5CeyHtNjqQKm8S6fcRalf3HYuLdCq9oVwuTjbNSuCOwiuZnugQrDkznGB31XJ2hoWU43mH-myWcTpbIUhGPZTlK59229V-vrBZXX5Rs2i9ZgAMyKwzJFnfI8R1BrMwsNNCTST3U0ZfmUNl1Q_8AXfWLi3TUYLiS0ux6tIj80TR4J2I2OM9azJ2NDXWXispUMu6kZB8qdtZC1vFHF_Bsq57N1-EKouG77tdBsnkSQnswpYDPTb7Kt4r9McizIPANsR89STsyDTaNBGrLbgjBedg2DjPWuUcRXJvOIb3lPMplKLnwXYfurrsZCgewHw3OpJ6GuTzafNHcvdcjNbmYjnxkc--RU4NLUUk5aFtpt5b2VqskMbTOmBIFDAL8uMfXRLe6kYpY4bm1dkeIOGRCx37sCqJ9djt7BI7a0iS5b2SyjBYd9TvzhnhtIZryKFJAVCxFCWYdCdxgd3Q1Q1fWxo1WhD4Whez4ivrdBIsBCk9n7J5c5B8utG7vzBQByoOij95qq0mKK5vJL0gMbh0Ur_RCjp8uc_NVisQYxAO68zuCc56Zx1qeZspypMwcUOca3HZ2cFuDgyNzH3D8aJOQlk5GDKwLcx26daA-LHlnv2l5GECAIpP7_KpU1eQSehS81ac3hWhYEdaSDmcbnl6t7q1JX0KG7GLHR73UHb1aAmPmI5zstFGi6Dr2lydpDLAYG6hW7RT7x3Vpw_qb2V1CzyDle3Y8mMYJPsj5lHz1MsNZdbmN5Q-ZweeFBlXA6lfu8iO-rnTurMzqpZ3Q5rsV5qenmKV47OFPauM8xyM4Hd8HPXr3d1CzWcEP-TyAxspI9Zz_AAZ8iPt60Vatb6jFc9nbzXW2Wjk7PmV1P81u4--oqWdzd25EUbJOvfLCeVh_R_2Me75qkoQjHloJzk5e8ELy1e2mKSjB6gg7HzBoo4L04Rc91cKrzHHYq_VV39oDzqVaW8GqTLZ39qtnPbHIj2w58Cevh7xVVxNa3UWrxXSCT1dVXknjGeUDrmsVWOuXqZrpyTjfrCI6jZi7SBJch1DK5GASe731YAVziC7eH-DuVMsXTPeKJ9G1J0EaAm4t2IVSPhIfDzrdGpfmc6VK2qCNRRGOIWE_DrrHKqaVHGjKJSBNyyF8-Wc476oAOoB6HBxV4NR002scTaShkCgSOGwW6ZIx0Oc_VTlqKKsOcRa8usWdvAts0Rhurq5yX5s9s4bHTuxjzrVNbVdO0K19XbOmXMlwW5v1nM6tgbbfBx8ta3N5pDpKLfSXjJVezJmJ5TnJJ36EYFbPdaMwYLpkyA9CJskfP_1v5VHS1rE9dyXFxO0F_r93BblZdSlWaPLZ7ErMJRnb2umO6peqcYRXaTGGzu0luJ0mm7W9aRF5XDlY1wAASP52cVVyXekyyg_k4xxgOxUOd2wOUZHdkfMT761N1pQniePT5OVT7aM-QwwfmO4_u-dKy2Hd7lhbcV9nq-uXD204tNVk7R0gn7OWMhyylXwdxkg7YNMahxEl5cXbCC7jhksvU4kF0WbrnMjEe0CdyBgUxPe6S0yvFpTIvaOzKZcgoVICj3Eg58qUM-j8lw8lm_NzDs48npgZOc4Hecd-RRZbBd7lHUqxtO2PO_6sd3jWb-aO4lUwW6QIqBQq9T5k95-6ptvzepx9hy82NubpRUm0gpxTZukymN5IzzIpKAAeGxpn1uJ9ubB81P3U41tG1v2LLlPLbfx99RHtIocM091jmA3mY5NZHc1Kw8US4idCwZTtt3VUTQPbS8j48QR31YOgM4MSoSmArkfA8s95P1VpdofUU7YqJoyMhd-XPdU6E3F5WV1oKSzbAbxnFZc1o9y_ZP7XtquWYf0aj6M8FuouLPTjJJnCTTtsPMCi-2sUlukuLgJKV_VAr8DPU799UOq3Nqt3J7ZxzkIEXK7dwAG9VYibv6JfhoLLaRU8UXN_dWIF1MpTJcRooAHKM586otNvWa5PrB5kkGVPTfOSKvL-5SbsFZJSz84UlOVcY_Chi4tza9ouOaIsMHvU9xH7qjBZo2kWz9GV4nSoLUX6xXNk5AKhWQEMFI8FOw86Y4gY2Gmv20zG5lUxx92CR0G527-tCNjdzWkRmjldWx1U4zT2oi4NlbXmoNI00jt8I_BwNh-41Wo30ZZKVlcMOERyaOsRIYxyMp-YH7auGiRyOdQaFeDLiaRb2JHjDBw-GBPiO4-QoikuJ7dC1xAGUfzomz9RwaJc9SK5aEN_Xk1WWO3jiW07IYJbl52J8umN96rL-2uo9EubZ45liQc6urK65zzZPf8A9qla_qU2nRC7it2kiYjJLYCjHf8ALQnq-rX2oqY558Rf6qP2V-XvPy0RV9QbI0MyyOpyqOD3jI94okudWhTS5Ua5a5lwFwkIQID3-ZoSjQhhjqaLtP0ETaY0U5Mc0jCQtjoegH10puMWkyxXav1mnD2v2MDzJKTArSF1JOQN9uvlt8lF0N5DctE9uyOisXPZtzZJrmeraFc6fkzIezztIu6n7vlqviElvIHj5SR5fdV2RPWLM-a3M63PNHaxBzzLFErszP5iufFmuS907r2TQFZQW35u4Y99RbjXbprOSEdtGWAGBKWQjvyGyfrqrN4_89Eb5MGnCDXMU5IeI2qRYgCO4fqwVVRf6TFhioIuoz8JWX66t-HILe6uojNIFjEuc55eg23PmR9VaIesUyegS8R3VmiWLXECmRwmQ6jdeb8DUYWXLrrz6TKhgIZpYGbHYvjOQPPA9-TU_jrRp7izslskWZoiVAYgEjH781T6WLi21WG8lhktg7iC4jkXCk49kj3Grr3V0U211Juk65JqGghEH-V2zHsj05gFLY67-yCPkp631-8R4ZeSMxueVl5h8nf30NaHp817LK0Nz2LCQOhTbl69Pkp6zsL22uDBeXMMXtEpzJleZTnqpGPEURslZhJPRoKtf5xdWt9FAsiMoU79D3fIa3uLmxvdFmkhK-rNEwZSuORu8EdxzW91p15qGjuBfRKN2JEBYk9epaqU6LcRNeYuUNrMnPIo2LY36eO2M56GqalNVIWXNFkJuEr7lPPaBmIZSjjrkYrW0t_V25kLK-d8HY1eTT-ta41oFiNup5MEYK4XLEN9lVFjGZjzKSpMhG-4Iz91VqeX1iTjm9UttHMqX8UcL4V93B3BA-2ikChvQZoV1CQzEREgrHzHY7-NHkVpCYlJjyeUE7mulg8NLE3UGtDDiKio-sipxWcUTSaFGkTSB7ZowvNkSb-7HXND_Eiiz0G_uLYck0URZG64Py1pfRtRRcsy0-PcUrFRbUbPUZxWcVz3TdZ1m_vY7ZNRjhL59ubkRFwCdyR5Y95q2VNdwpfXdNTOebmmT2f-Hf5M1zrmvKFmKxiueahrWt2N5Naz3wMsR5W5ArDOM9cedHmlSPPpdpNK3NJJErMcdSRQFh_FSLK7WBuynIVGPsMegP8ARP2U0RWrKGUqwBU7EGoyWZDi8rLskEY8aH2mtTqS6YUVXJyoSRuYKBnmPhv89bKssIxb3Ekaj-awDqPn3-uo5F_JdGeG0sjcAFRdu3UZ_ojf66ocX1ouUk-QRusbcvMoPKcr5Hxqj1m_s4WYSTRRb8zljguQO7xrSSwvbpSL7UZOQ9Y7dezB-XrTlrpNlae3DbJ2n-sYczfOaIuzuOSurAdxhxD_AJHDZWTSIZU5pWKlW5e4eWevu99Dcsh9QtDzMDhtwcY9rpWmtTvdalc3EwPO7k4PcOgHyCo9vIXRIzgmN8gHwPX6xSsSTaJkwms4opgzOSMsSc7E7D34_fWBLHdSTwEgEn2SffkVOvJjNY22cchcgY8APxqBb2Bvr6OKI4kKHlI7yNx9Wag7dZar20CPhjSGuJBNNFzQxHZSNmb7hVTq_rM_ENzaNI5gMxkKdwxvmjDhsXnqaI7IxDFCWX2hg438R8xqilfHEM0knIWd8bbYXH4CqY6SuWy1RrwpeQ2msy9s4jSfIXPTcgjfuq_mumutZmQHMVuRGB_tYyx-z5KDZYxNpKSrgMEZSPcdvsqw4NlkkhYe1I5OSep95pVl6DaHRfpWYaTOsyeruqmOZGQg792320KfkE31jDc2rpzMvtRv7OCNiAfeDRnYWIUk3Lc0y4YAdF8_M03Dp7WiS9ieeB3Migfzc7ke7NRUZxhdicoOVkUnDfD4spPWLwI042RQchPP31evhWIUfVTbSFRncVkSAnlzlhVTmpcy1RaI-rY_JU7N1Tlcd_RgapeKNFthDNdWCqjoedkHwWHfgdxq91BGls5Yo15pHXlA8TWuq27QK8cmCjoQG-TBFTU5RjddTIZFKVmcyYnG8Z_-pzTTcm_Ue8Vm3HZQ_wAJJknvJrbKtuGBHvreZSO0aEbMp9xqy0S6awnZo4o54wo7VJOhznaoLqD1ANTtERXW6TH9FtvefvpSk4xuhxgpuzCBeIYZbhVjDwQBQvZzMSARvs3d8tO3d2bjhi_MshRhyurHc55xgDx6fXV9opt3sVSHk5cYxjp76F-KY8qlpEohieZDMoGwbOBgfLv3bClSxOe0WhVMPlvJModImmtbtRzKq8oJHOTTs7zywzv6wpeJyCADkg71JtLCyh1RklkZgE2Ltj2tvCp1xb6ZblpEhjdZApKliR0ww-r661xetiiUdEyx4KumuLKWKadXUooIwBjIxn6qrHuL2BuyMiOOV4HGSO6rXhVNOiuCscadnJGeUshzkPnGfcRT2p2elC9mj7II-RKCpKnPX76IvWzRGS60yFe2f5Mtr-8Epkdo2VMjfmdhk_NVJw_NyJc5kKhE5gmdifHFWGvX011pNnlVjeZy-FfqF2B-eqO19q9jWZSAfZbGxINZE3kakXpekmghs2iuEVOUo2MkfCU7Z94-WvV3DPAuhXfDmlXM1vKZZrSKRz277koCe-vKsECQpPJC5ZuzKqrDBBO3XpXsvhUSx8GaCE2IsbcHb_01ojWlSbdGTXwYSpqaSqq5XScA8NR8vaQOvMcDmuGGT89Rr30d8J31rNaXELNHKvKyi7YEg_LRVqYU2ydraNdb4KL7t_eKrkitlwDokobkJOFBAGOgPjtV3jWKnH13b4_yVcGjF-quwBx6DvR4_SymbfG1_Id_71OfoF4B_qy5-my_fRuY7WFuZNImJCh8hM7nG3v3_fU59QKyuotbhgpILKuRn_rH_WaptU3-pb6Bzs-gbgM9dOuvpsv_ADVdW_os4Wt7eOGKznEcahVHrLnYfLROdTJlkSO0uJCjcpKjbNOWt89xcGNbd1CHDljjl2pNVErt_UPQBj9GPDHxSf6Q_wB9L9GPDHxSf6S_30a0qhnluSyR2An9GPDHxSf6S_31uvo14aVcC0mx_aH--jOlSzyfWGVLqAo-jXht1_8ADTj3XLj7aizeifhRwWmguyBvlr2TA-ujmXn7FuzJDZ6gZxvUV2L2tyLmN5kXfkK4LDwpavQfI59P6DOBJzmTTrknPUXso-2mU9Avo_Ep5dPuudeo9flyP-KjVGslcOLEh_hKSx6Dv8ts_NUiG4t3vIZBYzq49lXA2AwdsCrOHNIjni2Bj-g_gd4oozp1zyR5KgXkoxn5axB6DuB4Jo5YtPulkjxyn12Xb66PZtT7OZoxBISp37tvGtBq_Qi2lbIyOXf_AK3z81HCm0HEiusGIPRVwpA7NHZThm3J9ZkOT89Qp_QrwVNcLO-n3HaL0Iu5B9tdBsrj1qHtOzePcjlcYO1P1U45XYszN9ZzJfQfwOts1uNPueyYkkeuS9_XfNWFt6J-E7aExQ2U6oV5SPWX3Hz0e0qd2IDB6NOGgci0mBxjPrD_AH1kejfhsHItZvpD_fRlSozMVkBUvox4YlB57KXfwuHH20xH6KOFI5GdLO4DEYz61J99HlKo2V7klJpWuA59GPDQI_ye53_90_30zcejPhGaMwSwynJIIN4-c4z4-Bo8b4Q-WqSaO3a6k7TSJHYuSX5chjk7_Ng_LViTloRcsuoCfoM9Hrb-pTnG3_j5P-atv0BcAZz-TLr6bL_zUf21lZTAK2mNGDzE8694bO-_eTkVb0NyWjBWZwP0hehrg3RNCS60-xuY5jOseTeSNsQc7E-Vc-tuDtGtmZooJgWGDmZjXob0vfyVj_tSfuauNGvUdEYelVw2apFN3fNHFx9apTrWhJrQq7PQbCzYtBG6k9f4QmsahoGn6gyG6idihBHLIV6dM460W-p6Pn-NJcYz-pJOd9unu-uod7DZxxobW5eZyfaUpgAb757-6t0MLhb6Ul_2_wAGaVevbWb7QMuuENIiguZkjnVxHI_MJm2PKd8fIK5xKkTRqGMxdkJUljjr-NdqunEdrO7fBWJ2PyKa58NcgSC25uUrzEDJXoRnx8q5fSdOFKrFQildG3BSlOnJyfJg1wmI5ZEjbnEqs2GySN13B8tqmayyrqUTTLLHIoCthjg-f10_o2sQ2WoSjICxTZzkAlSSPtoh1_VYIRayjleOTI3ZfDu3rmJ2aVja1o9QO4mJjvY4I8GG2iWIeZxk_XU428cRt4lCgonaOcdTTmiTw3ur85kjYsS3Lkbk9Birm5gju79o-yUKH5GK964rnVZtJRL0ubXWVglBsVeVADIxHsbEgDz2r17whxJoacJ6Kr6xpysLKFSHuUUghACCM7EGvLVxo8MgjiikeMRLsCMjc5qPdaRMoTshHII0wRnB33NStFkm5HsdeINGfPJq2ntjri5Q_bW35d0j-tLD6Sn315O0O37O2Ysiqzt0A7sVYtyLkkADOOlSjTUkncg6lmeoPy7pH9aWH0lPvpfl3Sf60sPpCffXmDlXwHzVkKvgPmqXBW4uI9j09-XdJ_rSw-kJ99L8u6T_AFpYfSE--vMXKv8ARHzUuVf6I-ajgrcOIz07-XdJ_rSw-kJ99Z_Luk_1pYfSE--vL55AyqeUFug8a2kVS7bDr4UcFbhxHsem5OItFjx2mr6cmenNdIPtrC8SaIzcq6xppbrgXUef315Y1PtUs5GtkBkB3PIG5Rg5O4of4Rt4VlncRq4YCNWz-sbGTjuHuqMoJEoty5HsQ8S6FE4jk1nTEkbcK13GCd_DNODiHRWJC6vpxI6gXSbfXXjvXbeKbiSx5o0544hg46e0am6YF9ZumCrntDnaqptRRbCLk_keuF1_R2OF1bTyR3C5T76Zm4q4fhcpNrulRuOqteRgj_iryuLi10y1ury4wqIVHTcnfAHvNclvw17PPdHDu7FpOb4QPnUqcc8U2Qm8rsj39-d_Df8A5g0f6dF_zVkcXcN93EGkfTYv-avnfHAsjEgKuOmR0p1WCezJGg_2gBg1ZwveRzn0M_O3hz-v9I-mx_8ANWV4s4eZgq69pJY9ALyPf_ir57nkCjmReU9DjvqfpnZQyxXjcqxwypzHlzsc_dUXTsroald2Z77finQEfkfXNKV845TeRg_vraLiXQ5RmLWdNcf7N1GftrwncXdveXbzwwAO78zSyAFvIDwFWFoZFlR4gYIpDyhkTAHzfuqsuyI9vDiHRi5QavpxcdV9ZTI-umvzr4eyw_Luk5U4YeuR7Hz3rxvHdXnZzypKQ6rknlXJwNt8b1GbQ7qW0kLvC1xcIXkATGMb5J8c_bQLKtz2gOK-Hj017Sfpkf306eI9EHXWNNH-9J99eKrvg8i2M1pcQvyqCyuvKc-8VSXVtHZzPHfxQxSDb2I2k7s9eaizBKO57uHEeiPJhNY01ioyQLqM4Hz1u3EGjKMtq2ngedyn314v0W6MKl47dmQjCgQKAPkBxn3k1Z3EoLiVzaQMQCwds48MgbZoneC15hTUaj9F6Hr384NG_rbTvpKffTH528Of1_pH02P_AJq8im6jRRIzM8ZO7NFy59wx0rm0wj7WTswpTmPKcd2dqKX_AFL3CpDJbU9o-lXiXQ7rhlI7bWdMmf1lDyx3cbHGG3wDXI_yrp_x-z_br99cGIXuVfmrUgeA-au5g-kZYSnw1G5zMRglXnnbsd8_KlgACb60wdx_DLv9db-v2ZUN63b8p6HtVwfrriTWSzaXZTNLgZlj5QvTBz9tEGjvbWeicsshkSYcuGAwpG-elbPLU7aQXaZ10bG_rHTxc2sqMO2gkQqwI5wQRg7VzrWNFeCKNtNtu1iDAmPYlNsd_UVU8P68IJ1WUYDfzcbN5jzo0tL1WCsjBgRnbwrjY3pKrWqxnKNrHSw2ChCm4xd7gJc2t3baz23qTcrqCy4GD0Pj5Vea1ZXENi0YspHt0dZI_Y-DnqNjVrrVjPORLZsrLyMrRnIO4PT5e6tdR1gtpMpljeJnjxkhtjt19nbeiNVT1iJ0sujBHgOBn1Z53UBYIy2cd52H21Lurlri6hSCQ9rdSjlKkqQCcZ2o-sOAOMLKwMP5uXrvg5YY33z41vpfA3FUQRpeF74OPa_VrsTnvz7q58ppyzNF2XRIDtT1K9HEhtrSSRIudIgAAQfnqfPqs76_Np8IjMXQkjfZd96MY-BuJFkWRuG70vnmJEa5B-eo68BcQpIt0nC16t259twgJGevfSc01YdveM24YJCoyMrkkdBWEUl417YyDn3DLjGM1evwlxMY5DDoF9zpyqoZAMjv76iXnDXF9ukfq_C99JKwyzBQQp7xjNW5rLRlbRB7RS0QydyT0rIZmlKoyYBAwQcnar-Lg3iAxxu2hXgYL8ELjBPy1rbcI8QtNKfyBqEeDnLqPa27t6kpyvzFlBw30KrJzkFkYpyockkd1Nx6rbyMwCyL7RUcy9cdfd176nn0d8TveMw0nUIxkyc3KDucZxv8lSJfR_xOEy2k3LgMXKCEe1k5x1zS4ruGUhiPnvI3ZRiMEq3N3nrtW7dDUy14S4sRCF0G-WNFfAMQyTjbG_ifqrGncM8WyhYr7hvUFJH6wRjGfMZqSqoWTWxVajIqWc6Bh2kicoXIyxPdUHSdHisRJHLLD2kh7RVHs48QviBjrV5b-j7ig6pdz3WiXRiDAQgRjp4jfqOlby8FcWHWbee30S_FvjspS0YHnnc5x03oU1LWSJJOPID9VE8nEpa3AxCkfaE9y7_aRUnRie2myckuST76xxH6PON7nWrmWDh3UnQthWUAAjAx31P4R4C4xtTOl3w9qMYyGUso38e-s1RX1NNN27AS4_nKXFrBn2MNIRzY36Z-bNDNtaXd_MPUrZpD05h0Hy4-2u33Po-1y4vVkm4eupHC4V3iVgB4ddutPPwPxHygR6FdgD-ZyAA_Mdj51opO0UimprI4ZdWt1btyXcA7Re4Df5KiY3wARkbqwx_2ru0_AnEroObQb6VO4Mi86e7ff3VTX3ok126J5NEv4iwyPYBX9-RVmZELHHkRgGWIqwO7Rt3jxH4VY8PaW2qXxsVl7NJI2frzcpUZB-fHz0W33oi43gbmj4evLlBueXlz7xvnNTOFfR9xtYcQWc03DGpi3JZHYqPZDDqd_HFF0KwKaho1zo9qpvXjEjfASNuYnzJ7hRHpnaJoMEQJ5GUvy46k1c8ccA8Y3-pw-q8OalLCkeOZUGMk--rbSeCOKUshDLw7fo6eyCYx07sb1WrLmWttpA3bQC3sWaTYZGc_u-qn_wAp28VpmMF53zzZGBjBGPdg1d6xwTxbKkFvBw9qBiGWc8g3Pz1XDgLi8e0eGdQPlyj76NBXZV21-0SliMq6FWHjj_vUUW1ndTC5uBcSzHdVjxjPQ93kKIl4B4uMfKeG9QBGT8FfvpadwPxlaESR8O6isiM3LmMbgj30L0eTB2krNAtqVqmI7ZxJbD4XLnJwfGmNP7S2lDFAqkhFeMhnb5W-D81FF16PuMppmkbh_UmZjkkoPvqaPRtxTDb25fQ715BKCQig4Hfnf_rNQms2rJwlkVkCuuf5Np1wxblZlYksxYnIwNzvQJ3V0_i7gTje-vGituGNTa3Vs8yxj2vDvof_AEX8c4_krqv7NfvqyFoqxCTbdwONaGjM-i_jnu4V1T9mPvrH6LuOv_Kuq_s1--p3REFpSRptoQ-B2r7Y91S-HRLPM0ETBnwSqkAD56M4fRrxaOHmik4T1I3Sy8ygwgnG3fmntE9HnGdobhhwrqSOxUKeyUbd_fU1JWI21OfahFcw8iSIiSQ9cMDvzHvHuq_s7prS67KTKY28t9x--pt_6NuPJbm6b81dVPPISMRrvv76JtW9G_F11pVrPFw_fi9SFUdeQZYYxgjPUVGulPrJUZZHYqrPVoo5ooJpOVpBlOb34p-8uEvHudPYKtxy5XnGx8D7qr4fRfxtcQGObhvVUljBMTMg5T3lTvtnx8au4-AeMrywhmn4e1SHULNSEPZr_CjbY71kUXB3izU5RkrNHsnA8KWB4UqVMoFgeFLA8qRrg-vekXiO11zULe3u4khhuJI0XsEOAGIG5HlWvC4Opim1C2m5gx_SNLARUqqeux3jA8qWB4CvPH6TOKfj0X0dPurH6TOKfj0X0dPurb5ExG67X3HM85sJtLsXeeiMDypYHlXnf9JvFPx-L6On3Vg-k3in49F9HT7qPImI3Xa-4fnNhNpdi7z0TgeVLA8q86H0ncVfH4vo6fdWP0n8VfH4vo6fdR5ExG67X3D85cJtLsXeejMDypYHlXnP9J_FXx-L6Mn3Vj9J_FXx-L6Mn3UeRMRuu19wecmE2l2LvPRuB5UsDyrzl-k_iv4_F9GT7qX6T-Kvj8X0dPuo8iYjdfXuDzkwm0uxd56NwPAUsDwFeauAPSvxZrHHV_pV_e28lrCjMoW2VSNxjJx512LTta1GeYh5lKKMn-DFYKmFnTTba0_Y6NPpCnUmqcU7u31V9wzwPKlgeVDn5Tu87yD-6KkJqE_OqNJ7WOY-ztjpWVO50GrF3geVLA8qqBfS5-EPmFYi1UG9hgZxzO2MY8vwp3CxcYHgKWB4Chb0kaxeaHw0bvTnWOczInMyBsAnfY1yv9I3E3x6L6On3Vvw3R1XEwzwat7_AP4ZK2MhRlllc77geApYHgK4F-kbib49F9HT7qX6RuJvj0X0dPurR5FxG6-vcVeUaWz-_md9wPKlgeVcC_SNxN8ei-jp91L9I3E3x6L6On3UeRcRuvr3B5RpbP7-Z33A8qWB4CuBfpG4m-PRfR0-6l-kbib47F9HT7qPIuI3X17g8o0tn9_M77geApYHlXNvRdxVq2vape2-qTxyxxwiRcRBSDzY7qI-L9Wu9OmtktJFQOrFsqDnBHjXH6Sl5NTdbW1uXv7DdhX4zZw6wmwPAUsDwFc4_OfVvjCfslpfnPq3xhP2S1wvOLC7S7F3m3xKp7jo-B4ClgeArnH5z6t8YT9mtZ_OfVvjCfslo84sLtLsXeHiVTdHRsDwFLA8BXOfzn1X4wn7JaX5z6r_AK9P2a0ecWF2l2LvDxKpujo2B4ClgeArnP5z6t_r0_ZLRbwpf3Goaa0t0waQSlchcbYH31pwnS9DF1OFTTv77d5XUw06cczLnA8BSwPAUqVdUzipUqVACNeV-J_5S6t_a5v8Zr1Qa8rcTH_8m1b-2Tf4zXe6C0nP4I8t4UK9OmveytrBzRBYLZFn9fM6rgcnZAHffrnu6VNWLQ_50t5jPcgJAx9-fkx51zV4ZJr2P_t_xPSS_pfKLt4y_wDx_wDIEawaK4Y9HYP2sl2hGOXChs-yM58N8_Jiq_U1tg0vqhdoQgwXGCTjf681On4Xqc4x4XN29b-Cur_TOVKnOfjPqpv1LclfnmKEmsZpGtTXsz5fY2pVpSzQOxtSzWhNYJ2oHYd9FoMXpP1cuUEctr7G--QUzXoLRSBBK3i4H1V5d4Tvr6T0iW9lEZBKr85AHs8gGSflB-uvTOhSfwM0Z65D_ZXkcZeUJu39z_U9rgMsMVTje94r9LfsWolzIKYsbvtNa1WIysez7FQhI9kcpOQPMk9fD3VtGMyZqi1y6Gg6yNUk2sbiMRz4UZUqCefPkBj5a5ET00gpubhLeEvIwFUmjXJueJrNyT-s2H_1NB-u8aabPK3-crZUTHsl8EZ6ZHWtOB-K9Ov-M9KtLG59Zd5iCYkJUeyerdKWrYXVjoPpj_kd_vMX21w6u4-mP-Rv-8xfbXDh1r1_Q34f5v8AY8_0h7b5GQpNbBKdRcDzrcAda6phGOSlye6nPdWMGmA2UPhWCh8DT3mayT7PhmgA-9CIxr2o_wBmX_HRhx-Abmzz_Qf94oT9Co_z3qB_9sP8dFfpAOLi0235G_eK-c-Gns6n-v6o9R0GvV-YK4rGKypyAazXzC56Q1xWcVmlRcLGMUsVnFLFFwsYxR5wJ_E8n_zN-4UCYo84F_ieT_5m_cK7fQH4tfBmTG-yCKlSpV7k5AqVKlQAjXlXij-Uur_2yb_Ga9VGvKfFP8pdX_tk3-M13ugvXn8EeW8KPZ0_iyt5jWpY-NO3NtPaiM3MEsIkXmQyIV5h4jPUVHz5ivRpJ8jyPpLRm3MfGsFjW0cUkkUsqLzJEAXYH4IJwPrpLDK8EkyRs0MZVXcDZS2cZPng_NRoP0hvNak1JNldiOGQ2s4SchYmMZxIT0CnG591a31ldWYU3cDwhmdFLjGSpwwHuO3vozLlcfDlzsRyawTWpYeIrBNMEjOaWa0JpZ2oJWGeCAY_TDG_L7Mli658-X8K7taXJtp1kAyBsy-I764JwsJP0vaYV5uU2kh26YCsD9ldv5jivP1IKU5xe7O06sqfDnF6qK-gZwyxmJZY2DIwyCO-hvixjqFq9tgNG2xVhkGoUF3PaEmJsoTlo26Hz8jUtdTspv1zmBvCQbfONq4dfBVKb9FXR6nB9MYeurTajLZ_s_tnPbzhCA4AtIWwSRzKTuep-qir0d6KbPibTn7FYwshOFAA-CavDNp4XmN5bftV--pfDepae3EFlFBL20jvgGNSQNj1bpWaNGo3yZvniaEec0r-9Fn6Y_5Hf7zF9tcQVGZXZVYqgyxAyFHTJ8K7h6Y_5Hf7zF9tcl0DVI9Mh1FZYu19ZiSLsyPZdecF1Phlc4PjivV9Etxwt4q-vccbHJOtrsVw5o3MUoKOP5rDBHyVseuMii2-4m02QXb20EnOzMyLLCrdofZ5HZs7FeXHf9ZraTiDSQ6ta2jIscyhGeFW_giwd8jO55xgb_B7xW5V6n5GZ3Sh-YE-zdYVmZSIWYqshGxIxkA_KPnpCNyoIRiuCQcdQOp-Tvou_OHTQ3KqzBvbYTmFSUZhECwXIznkYeO_fk1oOJYCvJC01tFi7jWNIVwgl3RgM9x6jzo41T8n32Bw4fmBDbfJHz0gAe_NGFzxFp_ZubSApL2MghBt0xASigKDk5AIJzjz6k1V67qNtfWFhHCGE8Qw_wDBKigcqju3JyCfDfOASanCrOTV42IypxS0dwo9Cwxreof2Zf8AHRP6QmK3Vl4cj_vFDHoX_jzUP7MP8dFHpCx6xZDGfZb94rwHhr7Kp_r-qPR9Bf2_MG0ileMukUhQdWCEgfLWgYHoRUqwu0tYpI3L4eSJsDoQrZb6qmx6nCVYycwJMuVWJSH5hhDnu5a-bwp05JXnZ_z9v719JLMm9CpyPGkI5TIirG7doCUwpOcdceNXKanagqezKM6FncIDyyHlBIHhgH-8ahXt9FJqNlJCrRrExJAGMAuW2x5GnOjSSvnv9r9ghKV7ZSG6yQ47eN485xzjGcVrzirmyvoHt7xudo5Q7OJCgZgGkXGATvsD7q0vL-2ntZo4kKEyFkURgY9rO593_WKc6FNLNGfVf-Pv66hGTbs4lVnP_ajrgI50eXPdOw-oUDZNG_o__iab-0N-4Vv8HnfGr4Mp6QVqPzCalSpV704QqVKlQAjXlLin-U2r_wBsm_xmlSrvdBevP4I8t4Uezp_FhtqNzNHws2rLIfX5dPMzSN7Q5-3hXmCnZTjbIANXz6dZySRW72sHYXULzzIEADvzIebbv93SlSq2o7Rut5fS1iuilKWv5Y_W9-3rB_hmY6lrGpm-jgm7AyLHmFByhZlKjYbgY2B7tulVWp3Et56Po7m4IaeWOEyOFCliJ7gZOOpwBSpVqSSqabx_cyNt03faX7FrYXMw441qPtX7OK5tezQnKpy3MKjA6DCsQPImpGh3Ut5YWlxdMJZljgQMygkK91cBh7iEUHxxSpVTUSyX_wAf0L6Mm6lv8v1G5H9V1q5toI4UgttLLxJ2S-yTcYJ6b7ADfu26VyiX4bd256UqVbMFyfyMHSPOK-I331gdTSpVvOeF_o9gia8vJ2iQzJEFWQqOZQTuAfPAo3bYbUqVcnE-1Zoh6ho3Q0wwGaVKqkQmahFxnlGfdVzwainiewyOjk_8JpUqjW9nL4Mng0vGKf8Akv1CX0x_yO_3mL7a4dSpVd0P-H-b_Y9bj_a_IQqdCoMIyOvWlSrqmF8hgfDx3VkdKVKhiRmOl40qVIkdA9C38fah_Zh_jos4_wD_ABVn_wDG_wC8UqVfOvDX2VT_AF_VHp-gv7fmCZAJI7q1P6sUqVfKz1Zt_NWtB-tX3UqVDBGIe_3084HTApUqlHkRlzMqcqCfCjjgD-Jpv7Q37hSpV2vB78avgzL0h7D5hNSpUq98cE__2Q==",
+  "height": 179,
+  "mime_type": "image/jpeg",
+  "width": 320
+ }
+}
+";

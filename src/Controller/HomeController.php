@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use Cake\ORM\TableRegistry;
+use Zend\Diactoros\Stream;
 
 class HomeController extends AppController {
 
@@ -30,8 +31,6 @@ class HomeController extends AppController {
      */
 
     public function GetGoogleScreenshot() {
-        $this->layout = false;
-        $this->render(false);
         if ($this->request->getQuery('url') && !empty($this->request->getQuery('url'))) {
             $url = $this->request->getQuery('url');
             $this->loadComponent('Curl');
@@ -39,15 +38,14 @@ class HomeController extends AppController {
         } else {
             $responseData = 'Request not accept';
         }
-        $this->response->body(function () use ($responseData) {
-            return $responseData;
-        });
-        return;
+        $this->set([
+            'my_response' => $responseData,
+            '_serialize' => 'my_response',
+        ]);
+        die($responseData);
     }
 
     public function contactUs() {
-        $this->viewBuilder()->setLayout(false);
-        $this->render(false);
         $responseData = 'Request not accept';
         if ($this->request->is('post')) {
             $articles = TableRegistry::getTableLocator()->get('ContactUs');
@@ -63,10 +61,11 @@ class HomeController extends AppController {
                 $responseData = 'Data has not been saved';
             }
         }
-        $this->response->getBody(function () use ($responseData) {
-            return $responseData;
-        });
-        return;
+        $this->set([
+            'response' => $responseData,
+            '_serialize' => 'response',
+        ]);
+        return $this->RequestHandler->renderAs($this, 'json');
     }
 
 }

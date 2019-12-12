@@ -12,7 +12,7 @@
                 </div>
                 <div class="modal-form">
                     <?php
-                    $this->Form->templates([
+                    $this->Form->setTemplates([
                         'inputContainer' => '<div class="form-group">'
                         . '{{content}}'
                         . '<span class="form-validation"></span>'

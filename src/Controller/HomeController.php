@@ -46,7 +46,7 @@ class HomeController extends AppController {
     }
 
     public function contactUs() {
-        $this->layout = false;
+        $this->viewBuilder()->setLayout(false);
         $this->render(false);
         $responseData = 'Request not accept';
         if ($this->request->is('post')) {

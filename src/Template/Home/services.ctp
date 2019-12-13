@@ -1,3 +1,4 @@
+<?php $this->assign('title', 'Free Services'); ?>
 <section id="portfolio" class="section section-small-padding">
     <div class="container">
         <div class="row">

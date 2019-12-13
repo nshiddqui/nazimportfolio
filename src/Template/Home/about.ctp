@@ -1,3 +1,4 @@
+<?php $this->assign('title', 'About Us'); ?>
 <section class="section"></section>
 
 <section id="skills" class="section">

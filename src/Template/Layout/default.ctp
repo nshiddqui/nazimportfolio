@@ -11,7 +11,13 @@ $cakeDescription = 'Nazim';
             <?= $this->fetch('title') ?>
         </title>
         <?= $this->Html->meta('icon') ?>
-
+        <?= $this->Html->meta('title', 'Nazim Web Developer') ?>
+        <?= $this->Html->meta('description', 'I am a full time Web Application Developer and free time Mobile Developer. I am looking to take on more work  to increase my skills as a Web Developer.') ?>
+        <?= $this->Html->meta('keywords', 'nazim,nazim web developer,logixfirm,web developer') ?>
+        <?= $this->Html->meta('robots', 'index, follow') ?>
+        <?= $this->Html->meta('language', 'English') ?>
+        <?= $this->Html->meta('revisit-after', '5 days') ?>
+        <?= $this->Html->meta('author', 'Nazim') ?>
         <?= $this->Html->css('master') ?>
         <?= $this->Html->css('https://fonts.googleapis.com/css?family=Lato|Roboto') ?>
         <?= $this->Html->css('materialdesignicons.min') ?>

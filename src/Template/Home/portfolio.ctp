@@ -11,42 +11,94 @@
             <div class="col-md-12">
                 <div class="portfolio">
                     <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                            <a data-toggle="modal" data-name="XpertsTax" target="_blank" title="XpertsTax" href="https://www.xpertstax.com/" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <?= $this->Html->image('preloader.gif', ['alt' => 'XpertsTax', 'data-url' => 'https://www.xpertstax.com/']) ?>
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>XpertsTax</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>July, 2018</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                            <a data-toggle="modal" data-name="Meet N Play" target="_blank" title="Meet N Play" href="http://meetnplay.com/" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <?= $this->Html->image('preloader.gif', ['alt' => 'Meet N Play', 'data-url' => 'http://meetnplay.com/']) ?>
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>Meet N Play</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>November, 2019</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                            <a data-toggle="modal" data-name="Online Product" target="_blank" title="Online Product" href="http://onlineproduct.co.in/" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <?= $this->Html->image('preloader.gif', ['alt' => 'Online Product', 'data-url' => 'http://onlineproduct.co.in/']) ?>
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>Online Product</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>Features add on December, 2019</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                            <a data-toggle="modal" data-name="AddYourTrade" target="_blank" title="AddYourTrade" href="https://addyourtrade.com/" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <?= $this->Html->image('preloader.gif', ['alt' => 'AddYourTrade', 'data-url' => 'https://addyourtrade.com/']) ?>
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>AddYourTrade</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>Maintaining from November, 2019</span>
+                                </div>
+                            </a>
+                        </div>
                         <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
-                            <a data-toggle="modal" data-name="Devta College" target="_blank" title="Devta College" href="https://devta.co.in" class="portfolio-box">
+                            <a data-toggle="modal" data-name="UpVate Anywhere" target="_blank" title="UpVate Anywhere" href="https://anywhere.upvate.com/" class="portfolio-box">
                                 <div class="portfolio-img">
-                                    <?= $this->Html->image('preloader.gif', ['alt' => 'Devta College', 'data-url' => 'https://devta.co.in']) ?>
+                                    <?= $this->Html->image('preloader.gif', ['alt' => 'UpVate Anywhere', 'data-url' => 'https://anywhere.upvate.com/']) ?>
                                 </div>
                                 <div class="portfolio-name">
-                                    <span>Devta Degree College</span>
+                                    <span>UpVate Anywhere</span>
                                 </div>
                                 <div class="portfolio-date">
-                                    <span>April, 2017</span>
+                                    <span>Maintaining from October, 2019</span>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
-                            <a data-toggle="modal" data-name="Tinkeshwar Singh" target="_blank" title="Tinkeshwar's Blog" href="https://tinkeshwar.com" class="portfolio-box">
+                            <a data-toggle="modal" data-name="UpVate Massachusetts" target="_blank" title="UpVate Massachusetts" href="https://ma.upvate.com/" class="portfolio-box">
                                 <div class="portfolio-img">
-                                    <?= $this->Html->image('preloader.gif', ['alt' => 'Tinkeshwar Singh', 'data-url' => 'https://tinkeshwar.com']) ?>
+                                    <?= $this->Html->image('preloader.gif', ['alt' => 'UpVate Massachusetts', 'data-url' => 'https://ma.upvate.com/']) ?>
                                 </div>
                                 <div class="portfolio-name">
-                                    <span>Tinkeshwar Singh</span>
+                                    <span>UpVate Massachusetts</span>
                                 </div>
                                 <div class="portfolio-date">
-                                    <span>January, 2016</span>
+                                    <span>Maintaining from July, 2019</span>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
-                            <a data-toggle="modal" data-name="Travel India Gateway" target="_blank" title="Travel India Gateway" href="https://travelindiagateway.com" class="portfolio-box">
+                            <a data-toggle="modal" data-name="UpVate Controller" target="_blank" title="UpVate Controller" href="https://controller.upvate.com/" class="portfolio-box">
                                 <div class="portfolio-img">
-                                    <?= $this->Html->image('preloader.gif', ['alt' => 'Travel India Gateway', 'data-url' => 'https://travelindiagateway.com']) ?>
+                                    <?= $this->Html->image('preloader.gif', ['alt' => 'UpVate Controller', 'data-url' => 'https://controller.upvate.com/']) ?>
                                 </div>
                                 <div class="portfolio-name">
-                                    <span>Travel India Gateway</span>
+                                    <span>UpVate Controller</span>
                                 </div>
                                 <div class="portfolio-date">
-                                    <span>January, 2016</span>
+                                    <span>Maintaining from March, 2019</span>
                                 </div>
                             </a>
                         </div>
@@ -59,33 +111,20 @@
                                     <span>501va Games</span>
                                 </div>
                                 <div class="portfolio-date">
-                                    <span>June, 2017</span>
+                                    <span>Maintaining from July, 2019</span>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
-                            <a data-toggle="modal" data-name="India Integrated School" target="_blank" title="IIS" href="http://www.integratedindianschool.org/" class="portfolio-box">
+                            <a data-toggle="modal" data-name="DMRC TRAINING MODULE" target="_blank" title="DMRC TRAINING MODULE" href="http://13.232.52.85/" class="portfolio-box">
                                 <div class="portfolio-img">
-                                    <?= $this->Html->image('preloader.gif', ['alt' => 'India Integrated School', 'data-url' => 'http://www.integratedindianschool.org/']) ?>
+                                    <?= $this->Html->image('preloader.gif', ['alt' => 'DMRC TRAINING MODULE', 'data-url' => 'http://13.232.52.85/']) ?>
                                 </div>
                                 <div class="portfolio-name">
-                                    <span>India Integrated School</span>
+                                    <span>DMRC TRAINING MODULE</span>
                                 </div>
                                 <div class="portfolio-date">
-                                    <span>June, 2017</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
-                            <a data-toggle="modal" data-name="Bharat Swaroop Achademy" target="_blank" title="BSA" href="http://qa.bsacademy.edu.in/" class="portfolio-box">
-                                <div class="portfolio-img">
-                                    <?= $this->Html->image('preloader.gif', ['alt' => 'Bharat Swaroop Achademy', 'data-url' => 'http://qa.bsacademy.edu.in/']) ?>
-                                </div>
-                                <div class="portfolio-name">
-                                    <span>India Integrated School</span>
-                                </div>
-                                <div class="portfolio-date">
-                                    <span>September, 2018</span>
+                                    <span>Maintaining from June, 2019</span>
                                 </div>
                             </a>
                         </div>

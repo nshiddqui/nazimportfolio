@@ -28,6 +28,9 @@ class CurlComponent extends Component {
         $api = "https://www.googleapis.com/pagespeedonline/v1/runPagespeed?screenshot=true&strategy=$type&url=$url";
         $data = $this->processUrl($api);
         $data_array = json_decode($data, TRUE);
+        if (empty($data_array['screenshot']['data'])) {
+            return '/img/not-found.png';
+        }
         $base_data = "data:image/jpeg;base64," . str_replace(['_', '-'], ['/', '+'], $data_array['screenshot']['data']);
         return $base_data;
     }

@@ -13,7 +13,7 @@
                         <li><?= $this->Html->link('About', '/about') ?></li>
                         <li><?= $this->Html->link('Portfolio', '/portfolio') ?></li>
                         <li><?= $this->Html->link('Services', '/services') ?></li>
-                        <li><?= $this->Html->link('Blog', '/blog') ?></li>
+                        <!-- Blog is coming soon <li><?= $this->Html->link('Blog', '/blog') ?></li> -->
                         <li><?= $this->Html->link('Contact me', 'javascript:void(0)', ['data-toggle' => 'modal', 'data-target' => '#contact-modal']) ?></li>
                     </ul>
                 </div>
@@ -36,7 +36,7 @@
             <li><?= $this->Html->link('Home', '/') ?></li>
             <li><?= $this->Html->link('About', '/about') ?></li>
             <li><?= $this->Html->link('Portfolio', '/portfolio') ?></li>
-            <li><?= $this->Html->link('Services', '/#feedback') ?></li>
+            <li><?= $this->Html->link('Services', '/services') ?></li>
             <li><?= $this->Html->link('Contact me', 'javascript:void(0)', ['data-toggle' => 'modal', 'data-target' => '#contact-modal']) ?></li>
         </ul>
     </div>

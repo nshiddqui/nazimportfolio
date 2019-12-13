@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 use Cake\ORM\TableRegistry;
-use Zend\Diactoros\Stream;
+use Cake\Mailer\Email;
 
 class HomeController extends AppController {
 
@@ -66,6 +66,18 @@ class HomeController extends AppController {
             '_serialize' => 'response',
         ]);
         return $this->RequestHandler->renderAs($this, 'json');
+    }
+
+    public function sendSms() {
+        $email = new Email('default');
+        $email->setFrom(['nazim@logixfirm.com' => 'Nazim'])
+                ->setTo('nazim27294@gmail.com')
+                ->setSubject('About')
+                ->send('My message');
+        if ($email) {
+            echo "Mail Sent";
+        }
+        die();
     }
 
 }
